@@ -51,7 +51,7 @@ def movie_detail(request, movie_id):
         'rank': 2,
         'revenue': 128
     }
-    if movie_id == 1:
+    if movie_id == "1":
         ctx = {
             'id': 1, 
             'title': 'wot u doin step brother', 
