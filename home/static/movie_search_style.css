@@ -1,3 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+
+
+
+   .btn{
+
+    border-radius: 25px;
+
+   }
+
+   .new{
+        font-size: 12px;
+   }
+
+   .card{
+
+    padding: 20px;
+    border:none;
+
+
+   }
+
+
 /*
 *
 * ==========================================
@@ -5,11 +29,6 @@
 * ==========================================
 *
 */
-
-.button {
-    background-color: #ECCD98;
-    color: #1C567C;
-}
 
 .form-control:focus {
     box-shadow: none;
@@ -35,6 +54,7 @@
     background: -webkit-linear-gradient(to right, #ffd89b, #19547b);
     background: linear-gradient(to right, #ffd89b, #19547b);
     min-height: 100vh;
+    margin-bottom: 50px;
   }
   
   .form-control::placeholder {
@@ -42,3 +62,26 @@
     color: #aaa;
     font-style: italic;
   }
+
+
+
+.pointer-cursor {
+    cursor: pointer;
+}
+
+   .time-text{
+
+        font-size: 12px;
+        color: #989898;
+   }
+
+   .dots{
+
+    height: 7px;
+    width: 7px;
+    background-color: #eee;
+    display: flex;
+    border-radius: 50%;
+    margin-left:7px;
+    margin-right: 7px;
+   }
