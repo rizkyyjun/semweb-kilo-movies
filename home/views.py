@@ -3,9 +3,10 @@ from SPARQLWrapper import SPARQLWrapper, JSON
 import rdflib
 
 
-def index(request):
-    data = {'genres': ['action', 'romance', 'comedy']}  # stubs, TODO: query from ttl to get list of genre
-    return render(request, 'home.html', data)
+def homepage(request):
+    # TODO: get genre from ttl static file
+    ctx = {"genre": ["Action", "Romance", "Comedy"]}
+    return render(request, 'homepage.html', ctx)
 
 
 def actor_detail(request):
