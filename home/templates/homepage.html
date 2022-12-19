@@ -1,0 +1,90 @@
+{% include "navbar.html" %}
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SemPrul | Top IMDb 2006 - 2016 Movies</title>
+
+    <!-- favicon -->
+    <!-- <link rel="icon" type="image/x-icon" href="{% static 'favicon.ico' %}"> -->
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Boogaloo&family=Roboto+Condensed&display=swap" rel="stylesheet">
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="{% static 'homepage_style.css' %}">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row pb-3">
+          <div class="col-lg-9 mx-auto text-white text-center">
+            <h1 class="display-6">Top IMDb 2006 - 2016 Movies</h1>
+          </div>
+        </div>
+      
+        <div class="row mb-5">
+          <div class="col-lg-8 mx-auto">
+            <h5 class="font-weight-light mb-2 font-italic text-white">Search Movie</h5>
+            <div class="bg-white p-5 rounded shadow">
+      
+              <form>
+                <div class="form-group mb-4">
+                  <input id="title" name="title" type="text" placeholder="Title" class="form-control form-control-underlined border-success">
+                </div>
+                <div class="form-group mb-4">
+                  <input id="actor" name="actor" type="text" placeholder="Actor" class="form-control form-control-underlined border-primary">
+                </div>
+                <div class="form-group mb-4">
+                  <input id="director" name="director" type="text" placeholder="Director" class="form-control form-control-underlined border-info">
+                </div>
+
+                <select id="genre" name="genre" class="mb-4 form-select" aria-label="Default select example">
+                    <option value="" selected>Filter Genre</option>
+                    {% for g in genre %}
+                        <option value="{{g}}">{{g}}</option>
+                    {% endfor %}
+                </select>
+
+                <p class="mb-0">Year</p>
+                <div class="mb-4 input-group">
+                    <span class="input-group-text" id="">After:</span>
+                    <input id="yearAfter" name="yearAfter" type="number" min=0 class="form-control">
+                    <span class="input-group-text" id="">Before:</span>
+                    <input id="yearBefore" name="yearBefore" type="number" min=0 class="form-control">
+                </div>
+
+                <p class="mb-0">Rating (out of ten)</p>
+                <div class="mb-4 input-group">
+                    <span class="input-group-text" id="">More than:</span>
+                    <input id="ratingMoreThan" name="ratingMoreThan" type="number" step="0.1" min=0 class="form-control">
+                    <span class="input-group-text" id="">Less than:</span>
+                    <input id="ratingLessThan" name="ratingLessThan" type="number" step="0.1" min=0 class="form-control">
+                </div>
+
+                <div class="form-group">
+                  <button type="submit" class="shadow-lg btn rounded-pill btn-block">Search</button>
+                </div>
+              </form>
+      
+            </div>
+          </div>
+        </div>
+      
+      </div>  
+</body>
+
+</html>
