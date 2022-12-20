@@ -35,30 +35,29 @@ def movie_search(request):
     return render(request, 'movie_search.html', ctx)
 
 
-def movie_detail_query(movie_name):
-    movie_name = movie_name.lower()
+def movie_detail_query(movie_id):
     query = """
-    SELECT ?movie ?title ?desc ?directorName ?rating (GROUP_CONCAT(distinct(?genreLabel);SEPARATOR=", ") AS ?genres) (GROUP_CONCAT(distinct(?actorName);SEPARATOR=", ") AS ?actorNames) ?year ?runtime ?votes ?rank ?revenue
+    SELECT ?movie ?title ?desc ?directorName ?rating (GROUP_CONCAT(distinct(?genreLabel);SEPARATOR=", ") AS ?genres) (GROUP_CONCAT(distinct(?actor);SEPARATOR=", ") AS ?actorsIRI) (GROUP_CONCAT(distinct(?actorName);SEPARATOR=", ") AS ?actorNames)  ?year ?runtime ?votes ?rank ?revenue
     WHERE {
         ?movie rdf:type :Movie .
-        OPTIONAL {{?movie :actors ?actor ;}}
-        OPTIONAL {{?movie :director ?director;}}
-        OPTIONAL {{?movie :genre ?genre ;}}
-        OPTIONAL {{?movie :description ?desc ;}}
-        OPTIONAL {{?movie :metascore ?metascore ;}}
-        OPTIONAL {{?movie :rank ?rank ;}}
-        OPTIONAL {{?movie :rating ?rating ;}}
-        OPTIONAL {{?movie :revenue ?revenue ;}}
-        OPTIONAL {{?movie :runtime ?runtime ;}}
-        OPTIONAL {{?movie :votes ?votes ;}}
-        OPTIONAL {{?movie :title ?title ;}}
+        OPTIONAL {{?movie :actors ?actor .
+                  ?actor rdfs:label ?actorName . }}
+        OPTIONAL {{?movie :director ?director. 
+                  ?director rdfs:label ?directorName .}}
+        OPTIONAL {{?movie :genre ?genre .
+                  ?genre rdfs:label ?genreLabel .}}
+        OPTIONAL {{?movie :description ?desc .}}
+        OPTIONAL {{?movie :metascore ?metascore .}}
+        OPTIONAL {{?movie :rank ?rank .}}
+        OPTIONAL {{?movie :rating ?rating .}}
+        OPTIONAL {{?movie :revenue ?revenue .}}
+        OPTIONAL {{?movie :runtime ?runtime .}}
+        OPTIONAL {{?movie :votes ?votes .}}
+        OPTIONAL {{?movie :title ?title .}}
         OPTIONAL {{?movie :year ?year .}}
-      ?director rdfs:label ?directorName .
-      ?actor rdfs:label ?actorName .
-      ?genre rdfs:label ?genreLabel .
-      FILTER regex(lcase(?title), '%s')
+      FILTER regex(str(?movie), "%s$")
     } GROUP BY ?movie ?title ?directorName ?desc ?rating ?year ?runtime ?votes ?rank ?revenue
-    """ % movie_name
+    """ % movie_id
 
     g = rdflib.Graph()
     g.parse('home/static/movies.ttl')
@@ -73,15 +72,20 @@ def movie_detail_query(movie_name):
 
 def process_result(result):
     res = {}
+
     for row in result:
+        actors = []
+        for key, value in dict(zip(row.actorsIRI.toPython().split(', '), row.actorNames.toPython().split(', '))).items():
+            actors.append({'id': key, 'name': value})
+
         temp = {
-            'id': 1,  # ini harusnya gaada
+            'id': row.movie.toPython(),  # ini harusnya gaada
             'title': row.title.toPython(),
             'description': row.desc.toPython(),
             'director': row.directorName.toPython(),
             'rating': row.rating.toPython(),
             'genre': row.genres.toPython(),
-            'actors': row.actorNames.toPython().split(', '),
+            'actors': actors,
             'year': row.year.toPython(),
             'runtime': row.runtime.toPython(),
             'votes': row.votes.toPython(),
@@ -95,7 +99,6 @@ def process_result(result):
 
 def movie_detail(request, movie_id):
     ctx = movie_detail_query(movie_id)
-    print(ctx)
     return render(request, 'movie_detail.html', ctx)
 
 
