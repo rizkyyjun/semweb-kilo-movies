@@ -72,3 +72,50 @@ def movie_detail(request, movie_id):
 def actor_detail(request):
     data = {'name': 'Jenna Ortega'}
     return render(request, 'actor_detail.html', data)
+
+def dbpedia_query(input):
+    query = """
+        SELECT ?title ?wiki (group_concat(distinct ?cast;separator=", ") as ?casts) (group_concat(distinct ?castName;separator=", ") as ?castsName) (group_concat(distinct ?director;separator=", ") as ?directors) (group_concat(distinct ?directorName;separator=", ") as ?directorsName)  (group_concat(distinct ?producer;separator=", ") as ?producers) (group_concat(distinct ?producerName;separator=", ") as ?producersName) (group_concat(distinct ?writer;separator=", ") as ?writers)  (group_concat(distinct ?writerName;separator=", ") as ?writersName) (group_concat(distinct ?genre;separator=", ") as ?genres) ?country ?runtime ?desc ?release WHERE
+            {{
+                ?film rdfs:label ?title ;
+                    dbo:starring ?cast ;
+                    rdf:type ?category ;
+                    dbp:country ?country ;
+                    dbo:Work\/runtime ?runtime ;
+                    dbo:abstract ?desc ;
+                    owl:sameAs ?wiki ;
+                    dbo:distributor [ dbo:parentCompany ?distributor ] .
+                ?cast rdfs:label ?castName .
+                {}
+                OPTIONAL {{ ?film dbo:director ?director .
+                                    ?director foaf:name ?directorName .
+                                    FILTER (lang(?directorName) = "en") }}
+                OPTIONAL {{ ?film dbo:producer ?producer .
+                                    ?producer foaf:name ?producerName .
+                                    FILTER (lang(?producerName) = "en") }}
+                OPTIONAL {{ ?film dbo:writer ?writer.
+                                    ?writer foaf:name ?writerName .
+                                    FILTER (lang(?writerName) = "en") }}
+                OPTIONAL {{ ?film dbp:released ?release }}
+                OPTIONAL {{ ?film dbp:genre ?genre }}
+                FILTER (regex(str(?wiki), "wikidata") && lang(?title) = "en" && lang(?desc) = "en" && lang(?castName) = "en" && regex(str(?distributor), "Disney") {})
+            }}
+        GROUP BY ?title ?wiki ?country ?runtime ?desc ?release 
+
+    """.format('?film a dbo:Film' if input[0] == 'film' else '?film a dbo:TelevisionShow' if input[0] == 'tv show' else subquery(input), input[1] if input[0] == 'film' or input[0] == 'tv show' else '')
+
+    # print(query)
+
+    sparql = SPARQLWrapper("http://dbpedia.org/sparql")
+        
+    sparql.setQuery(query)
+    sparql.setReturnFormat(JSON)
+
+    try:
+        res = sparql.query().convert()
+        for movie in res['results']['bindings']:
+            # print(movie)
+            break
+        return res
+    except Exception:
+        return "SPARQL Error!"
