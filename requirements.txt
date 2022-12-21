@@ -24,3 +24,6 @@ SPARQLWrapper
 typed-ast
 urllib3
 wrapt
+rdflib
+zipp
+sqlwrapper
