@@ -79,7 +79,7 @@ def process_result(result):
             actors.append({'id': key, 'name': value})
 
         temp = {
-            'id': row.movie.toPython(),  # ini harusnya gaada
+            'id': row.movie.toPython(),
             'title': row.title.toPython(),
             'description': row.desc.toPython(),
             'director': row.directorName.toPython(),
@@ -111,8 +111,3 @@ def movie_search(request):
     data = {'movies': [{'title': 'Wednesday'}, {'title': 'Django Unchained'}]}
 
     return render(request, 'movie_search.html', data)
-
-
-def movie_detail(request):
-    data = {'title': 'Wednesday', 'Actors': [{'name': 'Jenna Ortega'}]}
-    return render(request, 'movie_detail.html', data)
