@@ -103,7 +103,8 @@ def actor_detail(request):
     data = {'name': 'Jenna Ortega'}
     return render(request, 'actor_detail.html', data)
 
-def actor_detail_query(input):
+def actor_detail_query(actor_name):
+    actor_name = f'dbp:{actor_name}'
     sparql = SPARQLWrapper('https://dbpedia.org/sparql')
     query = '''
     SELECT *
