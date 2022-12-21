@@ -106,6 +106,33 @@ def actor_detail(request):
     data = {'name': 'Jenna Ortega'}
     return render(request, 'actor_detail.html', data)
 
+def actor_detail_query(actor_name):
+    actor_name = f'dbp:{actor_name}'
+    sparql = SPARQLWrapper('https://dbpedia.org/sparql')
+    query = '''
+    SELECT *
+    WHERE {
+        ?film dbo:starring ?actor .
+        ?actor dbo:abstract ?abstract;
+            dbo:birthDate ?birthDate;
+            dbp:name ?name;
+            dbp:nationality ?nationality.
+        FILTER (lang(?abstract) = "en" && lang(?name) = "en" && lang(?nationality) = "en")
+    }
+    LIMIT 1
+    '''
+
+    sparql.setQuery(query)
+    sparql.setReturnFormat(JSON)
+
+    try:
+        qres = sparql.query().convert()
+        for res in qres['results']['bindings']:
+            print(res)
+            break
+        return qres
+    except Exception:
+        return "SPARQL Error!"
 
 def movie_search(request):
     data = {'movies': [{'title': 'Wednesday'}, {'title': 'Django Unchained'}]}
