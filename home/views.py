@@ -34,10 +34,14 @@ def movie_search_query(title, actor, director, genre, yearAfter, yearBefore, rat
       FILTER regex(lcase(?actorName), "%s") .
       FILTER regex(lcase(?directorName), "%s") .
       FILTER regex(lcase(?genreLabel), "%s") .
+      
+      FILTER (?rating >= "%s"^^xsd:double && ?rating <= "%s"^^xsd:double ).
              
     } GROUP BY ?movie ?title ?directorName ?desc ?rating ?year ?runtime ?votes ?rank ?revenue
-        """ % (title.lower(), actor.lower(), director.lower(), genre.lower())
+        """ % (title.lower(), actor.lower(), director.lower(), genre.lower(), float(ratingMoreThan), float(ratingLessThan))
     # TODO: Implement filter by year and rating
+
+    print(query)
 
     g = rdflib.Graph()
     g.parse('home/static/movies.ttl')
