@@ -106,8 +106,7 @@ def movie_detail_query(movie_id):
     WHERE {
         ?movie rdf:type :Movie .
         ?movie :actors ?actor .
-                  ?actor rdfs:label ?actorName ;
-        OPTIONAL {{  ?actor owl:sameAs ?dbpediaActor . }}
+                  ?actor rdfs:label ?actorName .
         OPTIONAL {{?movie :director ?director. 
                   ?director rdfs:label ?directorName .}}
         OPTIONAL {{?movie :genre ?genre .
@@ -122,7 +121,7 @@ def movie_detail_query(movie_id):
         OPTIONAL {{?movie :title ?title .}}
         OPTIONAL {{?movie :year ?year .}}
       FILTER regex(str(?movie), "%s$")
-    } GROUP BY ?movie ?title ?directorName ?desc ?rating ?year ?runtime ?votes ?rank ?revenue ?dbpediaActor
+    } GROUP BY ?movie ?title ?directorName ?desc ?rating ?year ?runtime ?votes ?rank ?revenue
     """ % movie_id
 
     g = rdflib.Graph()
@@ -158,8 +157,7 @@ def process_result(result, query_type):
                 'runtime': row.runtime.toPython(),
                 'votes': row.votes.toPython(),
                 'rank': row.rank.toPython(),
-                'revenue': row.revenue.toPython(),
-                'dbpediaActor': row.dbpediaActor.toPython()
+                'revenue': row.revenue.toPython()
             }
             return temp
         elif query_type == "movie_search":
