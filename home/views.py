@@ -96,7 +96,6 @@ def movie_search(request):
     ctx = {'movies': movie_search_query(title, actor, director, genre, ratingMoreThan,
                                         ratingLessThan), 'genre': genre_query()}
 
-    # print(ctx)
     return render(request, 'movie_search.html', ctx)
 
 
