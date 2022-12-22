@@ -280,7 +280,7 @@
         owl:NamedIndividual ;
     :actors :AdriaArjona,
         :JohnC.McGinley,
-        <http://example.org/JohnGallagherJr.>,
+        <http://semweb-k-movies.up.railway.app/movies/JohnGallagherJr.>,
         :TonyGoldwyn ;
     :description "In a twisted social experiment, 80 Americans are locked in their high-rise corporate office in Bogotá, Colombia and ordered by an unknown voice coming from the company's intercom system to participate in a deadly game of kill or be killed." ;
     :director :GregMcLean ;
@@ -433,7 +433,7 @@
 :Mov118 a :Movie,
         owl:NamedIndividual ;
     :actors :DouglasM.Griffin,
-        <http://example.org/JohnGallagherJr.>,
+        <http://semweb-k-movies.up.railway.app/movies/JohnGallagherJr.>,
         :JohnGoodman,
         :MaryElizabethWinstead ;
     :description "After getting in a car accident, a woman is held in a shelter with two men, who claim the outside world is affected by a widespread chemical attack." ;
@@ -453,7 +453,7 @@
 :Mov119 a :Movie,
         owl:NamedIndividual ;
     :actors :AlbertBrooks,
-        <http://example.org/EdO'Neill>,
+        <http://semweb-k-movies.up.railway.app/movies/EdO'Neill>,
         :EllenDeGeneres,
         :KaitlinOlson ;
     :description "The friendly but forgetful blue tang fish, Dory, begins a search for her long-lost parents, and everyone learns a few things about the real meaning of family along the way." ;
@@ -687,7 +687,7 @@
 
 :Mov13 a :Movie,
         owl:NamedIndividual ;
-    :actors <http://example.org/Auli'iCravalho>,
+    :actors <http://semweb-k-movies.up.railway.app/movies/Auli'iCravalho>,
         :DwayneJohnson,
         :RachelHouse,
         :TemueraMorrison ;
@@ -1117,7 +1117,7 @@
     :actors :EricStonestreet,
         :KevinHart,
         :LakeBell,
-        <http://example.org/LouisC.K.> ;
+        <http://semweb-k-movies.up.railway.app/movies/LouisC.K.> ;
     :description "The quiet life of a terrier named Max is upended when his owner takes in Duke, a stray whom Max instantly dislikes." ;
     :director :ChrisRenaud ;
     :genre :Adventure,
@@ -1708,7 +1708,7 @@
     :actors :BenStiller,
         :JackBlack,
         :JeffKahn,
-        <http://example.org/RobertDowneyJr.> ;
+        <http://semweb-k-movies.up.railway.app/movies/RobertDowneyJr.> ;
     :description "Through a series of freak occurrences, a group of actors shooting a big-budget war movie are forced to become the soldiers they are portraying." ;
     :director :BenStiller ;
     :genre :Action,
@@ -1724,7 +1724,7 @@
 
 :Mov178 a :Movie,
         owl:NamedIndividual ;
-    :actors <http://example.org/FrancesO'Connor>,
+    :actors <http://semweb-k-movies.up.railway.app/movies/FrancesO'Connor>,
         :MadisonWolfe,
         :PatrickWilson,
         :VeraFarmiga ;
@@ -2073,7 +2073,7 @@
         :NickNolte,
         :TomHardy ;
     :description "The youngest son of an alcoholic former boxer returns home, where he's trained by his father for competition in a mixed martial arts tournament - a path that puts the fighter on a collision course with his estranged, older brother." ;
-    :director <http://example.org/GavinO'Connor> ;
+    :director <http://semweb-k-movies.up.railway.app/movies/GavinO'Connor> ;
     :genre :Action,
         :Drama,
         :Sport ;
@@ -2109,7 +2109,7 @@
 :Mov196 a :Movie,
         owl:NamedIndividual ;
     :actors :CallanMcAuliffe,
-        <http://example.org/CliftonCollinsJr.>,
+        <http://semweb-k-movies.up.railway.app/movies/CliftonCollinsJr.>,
         :DanielEricGold,
         :LorraineNicholson ;
     :description "With the help of his new friends Alex Danyliuk turns to a life of crime and identity theft." ;
@@ -2287,7 +2287,7 @@
         owl:NamedIndividual ;
     :actors :GwynethPaltrow,
         :JeffBridges,
-        <http://example.org/RobertDowneyJr.>,
+        <http://semweb-k-movies.up.railway.app/movies/RobertDowneyJr.>,
         :TerrenceHoward ;
     :description "After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil." ;
     :director :JonFavreau ;
@@ -3343,8 +3343,8 @@
         owl:NamedIndividual ;
     :actors :CoreyHawkins,
         :JasonMitchell,
-        <http://example.org/NeilBrownJr.>,
-        <http://example.org/O'SheaJacksonJr.> ;
+        <http://semweb-k-movies.up.railway.app/movies/NeilBrownJr.>,
+        <http://semweb-k-movies.up.railway.app/movies/O'SheaJacksonJr.> ;
     :description "The group NWA emerges from the mean streets of Compton in Los Angeles, California, in the mid-1980s and revolutionizes Hip Hop culture with their music and tales about life in the hood." ;
     :director :F.GaryGray ;
     :genre :Biography,
@@ -3862,7 +3862,7 @@
     :actors :AnthonyEdwards,
         :JakeGyllenhaal,
         :MarkRuffalo,
-        <http://example.org/RobertDowneyJr.> ;
+        <http://semweb-k-movies.up.railway.app/movies/RobertDowneyJr.> ;
     :description "In the late 1960s/early 1970s, a San Francisco cartoonist becomes an amateur detective obsessed with tracking down the Zodiac Killer, an unidentified individual who terrorizes Northern California with a killing spree." ;
     :director :DavidFincher ;
     :genre :Crime,
@@ -3900,7 +3900,7 @@
     :actors :DonCheadle,
         :GuyPearce,
         :GwynethPaltrow,
-        <http://example.org/RobertDowneyJr.> ;
+        <http://semweb-k-movies.up.railway.app/movies/RobertDowneyJr.> ;
     :description "When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution." ;
     :director :ShaneBlack ;
     :genre :Action,
@@ -3958,7 +3958,7 @@
     :actors :JudeLaw,
         :MarkStrong,
         :RachelMcAdams,
-        <http://example.org/RobertDowneyJr.> ;
+        <http://semweb-k-movies.up.railway.app/movies/RobertDowneyJr.> ;
     :description "Detective Sherlock Holmes and his stalwart partner Watson engage in a battle of wits and brawn with a nemesis whose plot is a threat to all of England." ;
     :director :GuyRitchie ;
     :genre :Action,
@@ -4801,7 +4801,7 @@
         owl:NamedIndividual ;
     :actors :ChanningTatum,
         :DamaineRadcliff,
-        <http://example.org/De'ShawnWashington>,
+        <http://semweb-k-movies.up.railway.app/movies/De'ShawnWashington>,
         :JennaDewanTatum ;
     :description "Tyler Gage receives the opportunity of a lifetime after vandalizing a performing arts school, gaining him the chance to earn a scholarship and dance with an up and coming dancer, Nora." ;
     :director :AnneFletcher ;
@@ -5427,7 +5427,7 @@
 :Mov35 a :Movie,
         owl:NamedIndividual ;
     :actors :ChrisEvans,
-        <http://example.org/RobertDowneyJr.>,
+        <http://semweb-k-movies.up.railway.app/movies/RobertDowneyJr.>,
         :ScarlettJohansson,
         :SebastianStan ;
     :description "Political interference in the Avengers' activities causes a rift between former allies Captain America and Iron Man." ;
@@ -5886,7 +5886,7 @@
 
 :Mov371 a :Movie,
         owl:NamedIndividual ;
-    :actors <http://example.org/DylanO'Brien>,
+    :actors <http://semweb-k-movies.up.railway.app/movies/DylanO'Brien>,
         :KayaScodelario,
         :ThomasBrodie-Sangster,
         :WillPoulter ;
@@ -6068,7 +6068,7 @@
     :actors :ChrisPratt,
         :DenzelWashington,
         :EthanHawke,
-        <http://example.org/VincentD'Onofrio> ;
+        <http://semweb-k-movies.up.railway.app/movies/VincentD'Onofrio> ;
     :description "Seven gunmen in the old west gradually come together to help a poor village against savage thieves." ;
     :director :AntoineFuqua ;
     :genre :Action,
@@ -6124,7 +6124,7 @@
 
 :Mov382 a :Movie,
         owl:NamedIndividual ;
-    :actors <http://example.org/JohnGallagherJr.>,
+    :actors <http://semweb-k-movies.up.railway.app/movies/JohnGallagherJr.>,
         :KateSiegel,
         :MichaelTrucco,
         :SamanthaSloyan ;
@@ -7108,7 +7108,7 @@
     :actors :JelenaGavrilovic,
         :SergejTrifunovic,
         :SlobodanBestic,
-        <http://example.org/Srdjan'Zika'Todorovic> ;
+        <http://semweb-k-movies.up.railway.app/movies/Srdjan'Zika'Todorovic> ;
     :description "An aging porn star agrees to participate in an \"art film\" in order to make a clean break from the business, only to discover that he has been drafted into making a pedophilia and necrophilia themed snuff film." ;
     :director :SrdjanSpasojevic ;
     :genre :Horror,
@@ -7283,7 +7283,7 @@
         :JackHuston,
         :ScottEastwood ;
     :description "The lives of a young couple intertwine with a much older man, as he reflects back on a past love." ;
-    :director <http://example.org/GeorgeTillmanJr.> ;
+    :director <http://semweb-k-movies.up.railway.app/movies/GeorgeTillmanJr.> ;
     :genre :Drama,
         :Romance ;
     :metascore 3.3e+01 ;
@@ -7586,7 +7586,7 @@
     :actors :DonCheadle,
         :GwynethPaltrow,
         :MickeyRourke,
-        <http://example.org/RobertDowneyJr.> ;
+        <http://semweb-k-movies.up.railway.app/movies/RobertDowneyJr.> ;
     :description "With the world now aware of his identity as Iron Man, Tony Stark must contend with both his declining health and a vengeful mad man with ties to his father's legacy." ;
     :director :JonFavreau ;
     :genre :Action,
@@ -7721,7 +7721,7 @@
         owl:NamedIndividual ;
     :actors :AlisonBrie,
         :KevinHart,
-        <http://example.org/T.I.>,
+        <http://semweb-k-movies.up.railway.app/movies/T.I.>,
         :WillFerrell ;
     :description "When millionaire James King is jailed for fraud and bound for San Quentin, he turns to Darnell Lewis to prep him to go behind bars." ;
     :director :EtanCohen ;
@@ -7896,7 +7896,7 @@
     :actors :JaredHarris,
         :JudeLaw,
         :RachelMcAdams,
-        <http://example.org/RobertDowneyJr.> ;
+        <http://semweb-k-movies.up.railway.app/movies/RobertDowneyJr.> ;
     :description "Sherlock Holmes and his sidekick Dr. Watson join forces to outwit and bring down their fiercest adversary, Professor Moriarty." ;
     :director :GuyRitchie ;
     :genre :Action,
@@ -8149,7 +8149,7 @@
 
 :Mov477 a :Movie,
         owl:NamedIndividual ;
-    :actors <http://example.org/Da'VoneMcDonald>,
+    :actors <http://semweb-k-movies.up.railway.app/movies/Da'VoneMcDonald>,
         :DominicMonaghan,
         :JennetteMcCurdy,
         :KseniaSolo ;
@@ -8676,7 +8676,7 @@
 
 :Mov500 a :Movie,
         owl:NamedIndividual ;
-    :actors <http://example.org/DylanO'Brien>,
+    :actors <http://semweb-k-movies.up.railway.app/movies/DylanO'Brien>,
         :GiancarloEsposito,
         :KayaScodelario,
         :ThomasBrodie-Sangster ;
@@ -8894,7 +8894,7 @@
     :actors :AsaButterfield,
         :DavidThewlis,
         :RupertFriend,
-        <http://example.org/ZacMattoonO'Brien> ;
+        <http://semweb-k-movies.up.railway.app/movies/ZacMattoonO'Brien> ;
     :description "Set during WWII, a story seen through the innocent eyes of Bruno, the eight-year-old son of the commandant at a German concentration camp, whose forbidden friendship with a Jewish boy on the other side of the camp fence has startling and unexpected consequences." ;
     :director :MarkHerman ;
     :genre :Drama,
@@ -9108,7 +9108,7 @@
     :actors :BrianCaspe,
         :CillianMurphy,
         :JamieDornan,
-        <http://example.org/KarelHermánekJr.> ;
+        <http://semweb-k-movies.up.railway.app/movies/KarelHermánekJr.> ;
     :description "Based on the extraordinary true story of Operation Anthropoid, the WWII mission to assassinate SS General Reinhard Heydrich, the main architect behind the Final Solution and the Reich's third in command after Hitler and Himmler." ;
     :director :SeanEllis ;
     :genre :Biography,
@@ -9591,7 +9591,7 @@
 :Mov543 a :Movie,
         owl:NamedIndividual ;
     :actors :GerardButler,
-        <http://example.org/HarryConnickJr.>,
+        <http://semweb-k-movies.up.railway.app/movies/HarryConnickJr.>,
         :HilarySwank,
         :LisaKudrow ;
     :description "A young widow discovers that her late husband has left her 10 messages intended to help ease her pain and start a new life." ;
@@ -10136,7 +10136,7 @@
         owl:NamedIndividual ;
     :actors :DominicWest,
         :GeorgeClooney,
-        <http://example.org/JackO'Connell>,
+        <http://semweb-k-movies.up.railway.app/movies/JackO'Connell>,
         :JuliaRoberts ;
     :description "Financial TV host Lee Gates and his producer Patty are put in an extreme situation when an irate investor takes over their studio." ;
     :director :JodieFoster ;
@@ -10508,7 +10508,7 @@
         owl:NamedIndividual ;
     :actors :DomhnallGleeson,
         :GarrettHedlund,
-        <http://example.org/JackO'Connell>,
+        <http://semweb-k-movies.up.railway.app/movies/JackO'Connell>,
         :Miyavi ;
     :description "After a near-fatal plane crash in WWII, Olympian Louis Zamperini spends a harrowing 47 days in a raft with two fellow crewmen before he's caught by the Japanese navy and sent to a prisoner-of-war camp." ;
     :director :AngelinaJolie ;
@@ -10942,7 +10942,7 @@
 :Mov605 a :Movie,
         owl:NamedIndividual ;
     :actors :AndrewScott,
-        <http://example.org/FionnO'Shea>,
+        <http://semweb-k-movies.up.railway.app/movies/FionnO'Shea>,
         :MoeDunford,
         :NicholasGalitzine ;
     :description "Ned and Conor are forced to share a bedroom at their boarding school. The loner and the star athlete at this rugby-mad school form an unlikely friendship until it's tested by the authorities." ;
@@ -11767,7 +11767,7 @@
         owl:NamedIndividual ;
     :actors :AnaleighTipton,
         :MichaelKelly,
-        <http://example.org/SofiaBlack-D'Elia>,
+        <http://semweb-k-movies.up.railway.app/movies/SofiaBlack-D'Elia>,
         :TravisTope ;
     :description "Following the outbreak of a virus that wipes out the majority of the human population, a young woman documents her family's new life in quarantine and tries to protect her infected sister." ;
     :director :HenryJoost ;
@@ -12129,7 +12129,7 @@
 :Mov661 a :Movie,
         owl:NamedIndividual ;
     :actors :BrittRobertson,
-        <http://example.org/DylanO'Brien>,
+        <http://semweb-k-movies.up.railway.app/movies/DylanO'Brien>,
         :JamesFrecheville,
         :VictoriaJustice ;
     :description "A shy senior and a down-to-earth junior fall in love over one weekend." ;
@@ -12443,7 +12443,7 @@
     :actors :50Cent,
         :ArnoldSchwarzenegger,
         :SylvesterStallone,
-        <http://example.org/VincentD'Onofrio> ;
+        <http://semweb-k-movies.up.railway.app/movies/VincentD'Onofrio> ;
     :description "When a structural-security authority finds himself set up and incarcerated in the world's most secret and secure prison, he has to use his skills to escape with help from the inside." ;
     :director :MikaelHåfström ;
     :genre :Action,
@@ -12517,9 +12517,9 @@
 
 :Mov68 a :Movie,
         owl:NamedIndividual ;
-    :actors <http://example.org/BeverlyD'Angelo>,
+    :actors <http://semweb-k-movies.up.railway.app/movies/BeverlyD'Angelo>,
         :BryanCranston,
-        <http://example.org/JasonO'Mara>,
+        <http://semweb-k-movies.up.railway.app/movies/JasonO'Mara>,
         :JenniferGarner ;
     :description "A man's nervous breakdown causes him to leave his wife and live in his attic for several months." ;
     :director :RobinSwicord ;
@@ -13062,7 +13062,7 @@
         :MaggieGrace,
         :MauricioLopez ;
     :description "An ex-con gets on a series of apparently unrelated killings. He gets tracked by a veteran cop with secrets of his own and an egocentric hit man." ;
-    :director <http://example.org/GeorgeTillmanJr.> ;
+    :director <http://semweb-k-movies.up.railway.app/movies/GeorgeTillmanJr.> ;
     :genre :Action,
         :Crime,
         :Drama ;
@@ -13136,7 +13136,7 @@
 :Mov708 a :Movie,
         owl:NamedIndividual ;
     :actors :BillyBobThornton,
-        <http://example.org/RobertDowneyJr.>,
+        <http://semweb-k-movies.up.railway.app/movies/RobertDowneyJr.>,
         :RobertDuvall,
         :VeraFarmiga ;
     :description "Big-city lawyer Hank Palmer returns to his childhood home where his father, the town's judge, is suspected of murder. Hank sets out to discover the truth and, along the way, reconnects with his estranged family." ;
@@ -14236,7 +14236,7 @@
         owl:NamedIndividual ;
     :actors :ChrisEvans,
         :JeremyRenner,
-        <http://example.org/RobertDowneyJr.>,
+        <http://semweb-k-movies.up.railway.app/movies/RobertDowneyJr.>,
         :ScarlettJohansson ;
     :description "Earth's mightiest heroes must come together and learn to fight as a team if they are to stop the mischievous Loki and his alien army from enslaving humanity." ;
     :director :JossWhedon ;
@@ -14274,7 +14274,7 @@
         owl:NamedIndividual ;
     :actors :DustinHoffman,
         :JonFavreau,
-        <http://example.org/RobertDowneyJr.>,
+        <http://semweb-k-movies.up.railway.app/movies/RobertDowneyJr.>,
         :ScarlettJohansson ;
     :description "A head chef quits his restaurant job and buys a food truck in an effort to reclaim his creative promise, while piecing back together his estranged family." ;
     :director :JonFavreau ;
@@ -14910,7 +14910,7 @@
 :Mov791 a :Movie,
         owl:NamedIndividual ;
     :actors :DiannaAgron,
-        <http://example.org/JohnD'Leo>,
+        <http://semweb-k-movies.up.railway.app/movies/JohnD'Leo>,
         :MichellePfeiffer,
         :RobertDeNiro ;
     :description "The Manzoni family, a notorious mafia clan, is relocated to Normandy, France under the witness protection program, where fitting in soon becomes challenging as their old habits die hard." ;
@@ -16984,7 +16984,7 @@
 :Mov888 a :Movie,
         owl:NamedIndividual ;
     :actors :ElisabethShue,
-        <http://example.org/JerryO'Connell>,
+        <http://semweb-k-movies.up.railway.app/movies/JerryO'Connell>,
         :RichardDreyfuss,
         :VingRhames ;
     :description "After a sudden underwater tremor sets free scores of the prehistoric man-eating fish, an unlikely group of strangers must band together to stop themselves from becoming fish food for the area's new razor-toothed residents." ;
@@ -17028,7 +17028,7 @@
         :J.K.Simmons,
         :JonBernthal ;
     :description "As a math savant uncooks the books for a new client, the Treasury Department closes in on his activities and the body count starts to rise." ;
-    :director <http://example.org/GavinO'Connor> ;
+    :director <http://semweb-k-movies.up.railway.app/movies/GavinO'Connor> ;
     :genre :Action,
         :Crime,
         :Drama ;
@@ -17377,7 +17377,7 @@
     :actors :JamesFranco,
         :NatWolff,
         :SelenaGomez,
-        <http://example.org/VincentD'Onofrio> ;
+        <http://semweb-k-movies.up.railway.app/movies/VincentD'Onofrio> ;
     :description "An activist gets caught up in the labor movement for farm workers in California during the 1930s." ;
     :director :JamesFranco ;
     :genre :Drama ;
@@ -17571,7 +17571,7 @@
         :JamalWoolard,
         :MomoDione ;
     :description "The life and death story of Notorious B.I.G. (a.k.a. Christopher Wallace), who came straight out of Brooklyn to take the world of rap music by storm." ;
-    :director <http://example.org/GeorgeTillmanJr.> ;
+    :director <http://semweb-k-movies.up.railway.app/movies/GeorgeTillmanJr.> ;
     :genre :Biography,
         :Crime,
         :Drama ;
@@ -17824,7 +17824,7 @@
         owl:NamedIndividual ;
     :actors :GaboureySidibe,
         :MariahCarey,
-        <http://example.org/Mo'Nique>,
+        <http://semweb-k-movies.up.railway.app/movies/Mo'Nique>,
         :PaulaPatton ;
     :description "In New York City's Harlem circa 1987, an overweight, abused, illiterate teen who is pregnant with her second child is invited to enroll in an alternative school in hopes that her life can head in a new direction." ;
     :director :LeeDaniels ;
@@ -18063,7 +18063,7 @@
 :Mov938 a :Movie,
         owl:NamedIndividual ;
     :actors :JamieDornan,
-        <http://example.org/JasonO'Mara>,
+        <http://semweb-k-movies.up.railway.app/movies/JasonO'Mara>,
         :MarkStrong,
         :MichaelMcElhatton ;
     :description "Irish Commandant Pat Quinlan leads a stand off with troops against French and Belgian Mercenaries in the Congo during the early 1960s." ;
@@ -18102,7 +18102,7 @@
     :actors :ChrisEvans,
         :ChrisHemsworth,
         :MarkRuffalo,
-        <http://example.org/RobertDowneyJr.> ;
+        <http://semweb-k-movies.up.railway.app/movies/RobertDowneyJr.> ;
     :description "When Tony Stark and Bruce Banner try to jump-start a dormant peacekeeping program called Ultron, things go horribly wrong and it's up to Earth's mightiest heroes to stop the villainous Ultron from enacting his terrible plan." ;
     :director :JossWhedon ;
     :genre :Action,
@@ -18158,7 +18158,7 @@
 
 :Mov942 a :Movie,
         owl:NamedIndividual ;
-    :actors <http://example.org/CliftonCollinsJr.>,
+    :actors <http://semweb-k-movies.up.railway.app/movies/CliftonCollinsJr.>,
         :DavidAcord,
         :GabrielLuna,
         :JohnnySimmons ;
@@ -18833,7 +18833,7 @@
 :Mov974 a :Movie,
         owl:NamedIndividual ;
     :actors :DavidOyelowo,
-        <http://example.org/LupitaNyong'o>,
+        <http://semweb-k-movies.up.railway.app/movies/LupitaNyong'o>,
         :MadinaNalwanga,
         :MartinKabanza ;
     :description "A Ugandan girl sees her world rapidly change after being introduced to the game of chess." ;
@@ -19024,7 +19024,7 @@
 
 :Mov983 a :Movie,
         owl:NamedIndividual ;
-    :actors <http://example.org/DamonWayansJr.>,
+    :actors <http://semweb-k-movies.up.railway.app/movies/DamonWayansJr.>,
         :JakeJohnson,
         :NinaDobrev,
         :RobRiggle ;
@@ -19084,7 +19084,7 @@
     :actors :ArlenEscarpeta,
         :EmmaBell,
         :MilesFisher,
-        <http://example.org/NicholasD'Agosto> ;
+        <http://semweb-k-movies.up.railway.app/movies/NicholasD'Agosto> ;
     :description "Survivors of a suspension-bridge collapse learn there's no way you can cheat Death." ;
     :director :StevenQuale ;
     :genre :Horror,
@@ -20165,9 +20165,10 @@
     rdfs:label "Audrey Fleurot" ;
     owl:sameAs <http://dbpedia.org/resource/Audrey_Fleurot> .
 
-<http://example.org/Auli'iCravalho> a :Actor,
+<http://semweb-k-movies.up.railway.app/movies/Auli'iCravalho> a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Auli'i Cravalho" .
+    rdfs:label "Auli'i Cravalho" ;
+    owl:sameAs <http://dbpedia.org/resource/Auliʻi_Cravalho> .
 
 :AurélienRecoing a :Actor,
         owl:NamedIndividual ;
@@ -20314,7 +20315,7 @@
         owl:NamedIndividual ;
     rdfs:label "Bennett Miller" .
 
-<http://example.org/BeverlyD'Angelo> a :Actor,
+<http://semweb-k-movies.up.railway.app/movies/BeverlyD'Angelo> a :Actor,
         owl:NamedIndividual ;
     rdfs:label "Beverly D'Angelo" .
 
@@ -21074,7 +21075,7 @@
     rdfs:label "Cush Jumbo" ;
     owl:sameAs <http://dbpedia.org/resource/Cush_Jumbo> .
 
-<http://example.org/Da'VoneMcDonald> a :Actor,
+<http://semweb-k-movies.up.railway.app/movies/Da'VoneMcDonald> a :Actor,
         owl:NamedIndividual ;
     rdfs:label "Da'Vone McDonald" .
 
@@ -21113,7 +21114,7 @@
         owl:NamedIndividual ;
     rdfs:label "Damián Szifron" .
 
-<http://example.org/DamonWayansJr.> a :Actor,
+<http://semweb-k-movies.up.railway.app/movies/DamonWayansJr.> a :Actor,
         owl:NamedIndividual ;
     rdfs:label "Damon Wayans Jr." ;
     owl:sameAs <http://dbpedia.org/resource/Damon_Wayans_Jr.> .
@@ -21345,7 +21346,7 @@
     rdfs:label "Dax Shepard" ;
     owl:sameAs <http://dbpedia.org/resource/Dax_Shepard> .
 
-<http://example.org/De'ShawnWashington> a :Actor,
+<http://semweb-k-movies.up.railway.app/movies/De'ShawnWashington> a :Actor,
         owl:NamedIndividual ;
     rdfs:label "De'Shawn Washington" .
 
@@ -21551,9 +21552,10 @@
         owl:NamedIndividual ;
     rdfs:label "Ed Gass-Donnelly" .
 
-<http://example.org/EdO'Neill> a :Actor,
+<http://semweb-k-movies.up.railway.app/movies/EdO'Neill> a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Ed O'Neill" .
+    rdfs:label "Ed O'Neill" ;
+    owl:sameAs <http://dbpedia.org/resource/Ed_O'Neill> .
 
 :EdSkrein a :Actor,
         owl:NamedIndividual ;
@@ -21857,9 +21859,10 @@
         owl:NamedIndividual ;
     rdfs:label "Fiona Gordon" .
 
-<http://example.org/FionnO'Shea> a :Actor,
+<http://semweb-k-movies.up.railway.app/movies/FionnO'Shea> a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Fionn O'Shea" .
+    rdfs:label "Fionn O'Shea" ;
+    owl:sameAs <http://dbpedia.org/resource/Fionn_O'Shea> .
 
 :FlorenceClery a :Actor,
         owl:NamedIndividual ;
@@ -21887,9 +21890,10 @@
     rdfs:label "Fran Kranz" ;
     owl:sameAs <http://dbpedia.org/resource/Fran_Kranz> .
 
-<http://example.org/FrancesO'Connor> a :Actor,
+<http://semweb-k-movies.up.railway.app/movies/FrancesO'Connor> a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Frances O'Connor" .
+    rdfs:label "Frances O'Connor" ;
+    owl:sameAs <http://dbpedia.org/resource/Frances_O'Connor> .
 
 :FrancescAlbiol a :Actor,
         owl:NamedIndividual ;
@@ -22256,7 +22260,7 @@
     rdfs:label "Harold Perrineau" ;
     owl:sameAs <http://dbpedia.org/resource/Harold_Perrineau> .
 
-<http://example.org/HarryConnickJr.> a :Actor,
+<http://semweb-k-movies.up.railway.app/movies/HarryConnickJr.> a :Actor,
         owl:NamedIndividual ;
     rdfs:label "Harry Connick Jr." ;
     owl:sameAs <http://dbpedia.org/resource/Harry_Connick_Jr.> .
@@ -22867,9 +22871,10 @@
     rdfs:label "Jerry Ferrara" ;
     owl:sameAs <http://dbpedia.org/resource/Jerry_Ferrara> .
 
-<http://example.org/JerryO'Connell> a :Actor,
+<http://semweb-k-movies.up.railway.app/movies/JerryO'Connell> a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Jerry O'Connell" .
+    rdfs:label "Jerry O'Connell" ;
+    owl:sameAs <http://dbpedia.org/resource/Jerry_O'Connell> .
 
 :JerryStiller a :Actor,
         owl:NamedIndividual ;
@@ -23068,9 +23073,10 @@
     rdfs:label "John Cullum" ;
     owl:sameAs <http://dbpedia.org/resource/John_Cullum> .
 
-<http://example.org/JohnD'Leo> a :Actor,
+<http://semweb-k-movies.up.railway.app/movies/JohnD'Leo> a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "John D'Leo" .
+    rdfs:label "John D'Leo" ;
+    owl:sameAs <http://dbpedia.org/resource/John_D'Leo> .
 
 :JohnDeLuca a :Actor,
         owl:NamedIndividual ;
@@ -23497,7 +23503,7 @@
     rdfs:label "Kara Hayward" ;
     owl:sameAs <http://dbpedia.org/resource/Kara_Hayward> .
 
-<http://example.org/KarelHermánekJr.> a :Actor,
+<http://semweb-k-movies.up.railway.app/movies/KarelHermánekJr.> a :Actor,
         owl:NamedIndividual ;
     rdfs:label "Karel Hermánek Jr." .
 
@@ -24091,7 +24097,7 @@
     rdfs:label "Lou Taylor Pucci" ;
     owl:sameAs <http://dbpedia.org/resource/Lou_Taylor_Pucci> .
 
-<http://example.org/LouisC.K.> a :Actor,
+<http://semweb-k-movies.up.railway.app/movies/LouisC.K.> a :Actor,
         owl:NamedIndividual ;
     rdfs:label "Louis C.K." ;
     owl:sameAs <http://dbpedia.org/resource/Louis_C.K.> .
@@ -24163,9 +24169,10 @@
     rdfs:label "Lulu Wilson" ;
     owl:sameAs <http://dbpedia.org/resource/Lulu_Wilson> .
 
-<http://example.org/LupitaNyong'o> a :Actor,
+<http://semweb-k-movies.up.railway.app/movies/LupitaNyong'o> a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Lupita Nyong'o" .
+    rdfs:label "Lupita Nyong'o" ;
+    owl:sameAs <http://dbpedia.org/resource/Lupita_Nyong'o> .
 
 :LydiaWilson a :Actor,
         owl:NamedIndividual ;
@@ -24798,9 +24805,10 @@
     rdfs:label "Miyu Irino" ;
     owl:sameAs <http://dbpedia.org/resource/Miyu_Irino> .
 
-<http://example.org/Mo'Nique> a :Actor,
+<http://semweb-k-movies.up.railway.app/movies/Mo'Nique> a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Mo'Nique" .
+    rdfs:label "Mo'Nique" ;
+    owl:sameAs <http://dbpedia.org/resource/Mo'Nique> .
 
 :MoeDunford a :Actor,
         owl:NamedIndividual ;
@@ -24987,7 +24995,7 @@
         owl:NamedIndividual ;
     rdfs:label "Neel Sethi" .
 
-<http://example.org/NeilBrownJr.> a :Actor,
+<http://semweb-k-movies.up.railway.app/movies/NeilBrownJr.> a :Actor,
         owl:NamedIndividual ;
     rdfs:label "Neil Brown Jr." ;
     owl:sameAs <http://dbpedia.org/resource/Neil_Brown_Jr.> .
@@ -25039,7 +25047,7 @@
     rdfs:label "Nicholas Brendon" ;
     owl:sameAs <http://dbpedia.org/resource/Nicholas_Brendon> .
 
-<http://example.org/NicholasD'Agosto> a :Actor,
+<http://semweb-k-movies.up.railway.app/movies/NicholasD'Agosto> a :Actor,
         owl:NamedIndividual ;
     rdfs:label "Nicholas D'Agosto" .
 
@@ -25145,9 +25153,10 @@
     rdfs:label "Noel Fisher" ;
     owl:sameAs <http://dbpedia.org/resource/Noel_Fisher> .
 
-<http://example.org/O'SheaJacksonJr.> a :Actor,
+<http://semweb-k-movies.up.railway.app/movies/O'SheaJacksonJr.> a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "O'Shea Jackson Jr." .
+    rdfs:label "O'Shea Jackson Jr." ;
+    owl:sameAs <http://dbpedia.org/resource/O'Shea_Jackson_Jr.> .
 
 :OakesFegley a :Actor,
         owl:NamedIndividual ;
@@ -25286,7 +25295,8 @@
 
 :PatrickHuard a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Patrick Huard" .
+    rdfs:label "Patrick Huard" ;
+    owl:sameAs <http://dbpedia.org/resource/Patrick_Huard> .
 
 :PatrickHughes a :Director,
         owl:NamedIndividual ;
@@ -25302,15 +25312,18 @@
 
 :PattonOswalt a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Patton Oswalt" .
+    rdfs:label "Patton Oswalt" ;
+    owl:sameAs <http://dbpedia.org/resource/Patton_Oswalt> .
 
 :PaulAnderson a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Paul Anderson" .
+    rdfs:label "Paul Anderson" ;
+    owl:sameAs <http://dbpedia.org/resource/Paul_Anderson_(actor)> .
 
 :PaulBettany a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Paul Bettany" .
+    rdfs:label "Paul Bettany" ;
+    owl:sameAs <http://dbpedia.org/resource/Paul_Bettany> .
 
 :PaulBirchard a :Actor,
         owl:NamedIndividual ;
@@ -25322,11 +25335,13 @@
 
 :PaulNewman a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Paul Newman" .
+    rdfs:label "Paul Newman" ;
+    owl:sameAs <http://dbpedia.org/resource/Paul_Newman> .
 
 :PaulReiser a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Paul Reiser" .
+    rdfs:label "Paul Reiser" ;
+    owl:sameAs <http://dbpedia.org/resource/Paul_Reiser> .
 
 :PaulSidhu a :Actor,
         owl:NamedIndividual ;
@@ -25338,11 +25353,13 @@
 
 :PaulaBeer a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Paula Beer" .
+    rdfs:label "Paula Beer" ;
+    owl:sameAs <http://dbpedia.org/resource/Paula_Beer> .
 
 :PaulaPrentiss a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Paula Prentiss" .
+    rdfs:label "Paula Prentiss" ;
+    owl:sameAs <http://dbpedia.org/resource/Paula_Prentiss> .
 
 :PaulinJaccoud a :Actor,
         owl:NamedIndividual ;
@@ -25354,11 +25371,13 @@
 
 :PenelopeWilton a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Penelope Wilton" .
+    rdfs:label "Penelope Wilton" ;
+    owl:sameAs <http://dbpedia.org/resource/Penelope_Wilton> .
 
 :PennBadgley a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Penn Badgley" .
+    rdfs:label "Penn Badgley" ;
+    owl:sameAs <http://dbpedia.org/resource/Penn_Badgley> .
 
 :PeterAtencio a :Director,
         owl:NamedIndividual ;
@@ -25370,7 +25389,8 @@
 
 :PeterFacinelli a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Peter Facinelli" .
+    rdfs:label "Peter Facinelli" ;
+    owl:sameAs <http://dbpedia.org/resource/Peter_Facinelli> .
 
 :PeterLandesman a :Director,
         owl:NamedIndividual ;
@@ -25378,19 +25398,23 @@
 
 :PeterMcRobbie a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Peter McRobbie" .
+    rdfs:label "Peter McRobbie" ;
+    owl:sameAs <http://dbpedia.org/resource/Peter_McRobbie> .
 
 :PeterRiegert a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Peter Riegert" .
+    rdfs:label "Peter Riegert" ;
+    owl:sameAs <http://dbpedia.org/resource/Peter_Riegert> .
 
 :PeterSimonischek a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Peter Simonischek" .
+    rdfs:label "Peter Simonischek" ;
+    owl:sameAs <http://dbpedia.org/resource/Peter_Simonischek> .
 
 :PeytonList a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Peyton List" .
+    rdfs:label "Peyton List" ;
+    owl:sameAs <http://dbpedia.org/resource/Peyton_List_(actress,_born_1986)> .
 
 :PhilClaydon a :Director,
         owl:NamedIndividual ;
@@ -25406,7 +25430,8 @@
 
 :PhyliciaRashad a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Phylicia Rashad" .
+    rdfs:label "Phylicia Rashad" ;
+    owl:sameAs <http://dbpedia.org/resource/Phylicia_Rashad> .
 
 :PhyllidaLloyd a :Director,
         owl:NamedIndividual ;
@@ -25414,15 +25439,18 @@
 
 :PierreRichard a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Pierre Richard" .
+    rdfs:label "Pierre Richard" ;
+    owl:sameAs <http://dbpedia.org/resource/Pierre_Richard> .
 
 :PortiaDoubleday a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Portia Doubleday" .
+    rdfs:label "Portia Doubleday" ;
+    owl:sameAs <http://dbpedia.org/resource/Portia_Doubleday> .
 
 :Prabhas a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Prabhas" .
+    rdfs:label "Prabhas" ;
+    owl:sameAs <http://dbpedia.org/resource/Prabhas> .
 
 :PriyankaMoodley a :Actor,
         owl:NamedIndividual ;
@@ -25430,11 +25458,13 @@
 
 :QueenLatifah a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Queen Latifah" .
+    rdfs:label "Queen Latifah" ;
+    owl:sameAs <http://dbpedia.org/resource/Queen_Latifah> .
 
 :QuintonAaron a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Quinton Aaron" .
+    rdfs:label "Quinton Aaron" ;
+    owl:sameAs <http://dbpedia.org/resource/Quinton_Aaron> .
 
 :QuvenzhanéWallis a :Actor,
         owl:NamedIndividual ;
@@ -25446,7 +25476,8 @@
 
 :RJCyler a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "RJ Cyler" .
+    rdfs:label "RJ Cyler" ;
+    owl:sameAs <http://dbpedia.org/resource/RJ_Cyler> .
 
 :RabahNaitOufella a :Actor,
         owl:NamedIndividual ;
@@ -25454,23 +25485,28 @@
 
 :RachaelBlake a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Rachael Blake" .
+    rdfs:label "Rachael Blake" ;
+    owl:sameAs <http://dbpedia.org/resource/Rachael_Blake> .
 
 :RachelBilson a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Rachel Bilson" .
+    rdfs:label "Rachel Bilson" ;
+    owl:sameAs <http://dbpedia.org/resource/Rachel_Bilson> .
 
 :RachelBlanchard a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Rachel Blanchard" .
+    rdfs:label "Rachel Blanchard" ;
+    owl:sameAs <http://dbpedia.org/resource/Rachel_Blanchard> .
 
 :RachelDratch a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Rachel Dratch" .
+    rdfs:label "Rachel Dratch" ;
+    owl:sameAs <http://dbpedia.org/resource/Rachel_Dratch> .
 
 :RachelKorine a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Rachel Korine" .
+    rdfs:label "Rachel Korine" ;
+    owl:sameAs <http://dbpedia.org/resource/Rachel_Korine> .
 
 :RachelQuinn a :Actor,
         owl:NamedIndividual ;
@@ -25482,11 +25518,13 @@
 
 :RadhaMitchell a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Radha Mitchell" .
+    rdfs:label "Radha Mitchell" ;
+    owl:sameAs <http://dbpedia.org/resource/Radha_Mitchell> .
 
 :RaffeyCassidy a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Raffey Cassidy" .
+    rdfs:label "Raffey Cassidy" ;
+    owl:sameAs <http://dbpedia.org/resource/Raffey_Cassidy> .
 
 :RaghuvirJoshi a :Actor,
         owl:NamedIndividual ;
@@ -25494,23 +25532,28 @@
 
 :RainnWilson a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Rainn Wilson" .
+    rdfs:label "Rainn Wilson" ;
+    owl:sameAs <http://dbpedia.org/resource/Rainn_Wilson> .
 
 :RalphIneson a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Ralph Ineson" .
+    rdfs:label "Ralph Ineson" ;
+    owl:sameAs <http://dbpedia.org/resource/Ralph_Ineson> .
 
 :RanaDaggubati a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Rana Daggubati" .
+    rdfs:label "Rana Daggubati" ;
+    owl:sameAs <http://dbpedia.org/resource/Rana_Daggubati> .
 
 :RandallPark a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Randall Park" .
+    rdfs:label "Randall Park" ;
+    owl:sameAs <http://dbpedia.org/resource/Randall_Park> .
 
 :RandyCouture a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Randy Couture" .
+    rdfs:label "Randy Couture" ;
+    owl:sameAs <http://dbpedia.org/resource/Randy_Couture> .
 
 :RaoulMaxTrujillo a :Actor,
         owl:NamedIndividual ;
@@ -25518,19 +25561,23 @@
 
 :RasmusHardiker a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Rasmus Hardiker" .
+    rdfs:label "Rasmus Hardiker" ;
+    owl:sameAs <http://dbpedia.org/resource/Rasmus_Hardiker> .
 
 :RayRomano a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Ray Romano" .
+    rdfs:label "Ray Romano" ;
+    owl:sameAs <http://dbpedia.org/resource/Ray_Romano> .
 
 :ReginaHall a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Regina Hall" .
+    rdfs:label "Regina Hall" ;
+    owl:sameAs <http://dbpedia.org/resource/Regina_Hall> .
 
 :ReikoAylesworth a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Reiko Aylesworth" .
+    rdfs:label "Reiko Aylesworth" ;
+    owl:sameAs <http://dbpedia.org/resource/Reiko_Aylesworth> .
 
 :RenÔsugi a :Actor,
         owl:NamedIndividual ;
@@ -25562,7 +25609,8 @@
 
 :RichardBrake a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Richard Brake" .
+    rdfs:label "Richard Brake" ;
+    owl:sameAs <http://dbpedia.org/resource/Richard_Brake> .
 
 :RichardCurtis a :Director,
         owl:NamedIndividual ;
@@ -25574,11 +25622,13 @@
 
 :RichardKind a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Richard Kind" .
+    rdfs:label "Richard Kind" ;
+    owl:sameAs <http://dbpedia.org/resource/Richard_Kind> .
 
 :RichendaCarey a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Richenda Carey" .
+    rdfs:label "Richenda Carey" ;
+    owl:sameAs <http://dbpedia.org/resource/Richenda_Carey> .
 
 :RichieSmyth a :Director,
         owl:NamedIndividual ;
@@ -25594,7 +25644,8 @@
 
 :RilaFukushima a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Rila Fukushima" .
+    rdfs:label "Rila Fukushima" ;
+    owl:sameAs <http://dbpedia.org/resource/Rila_Fukushima> .
 
 :RileyThomasStewart a :Actor,
         owl:NamedIndividual ;
@@ -25602,15 +25653,18 @@
 
 :RimaTeWiata a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Rima Te Wiata" .
+    rdfs:label "Rima Te Wiata" ;
+    owl:sameAs <http://dbpedia.org/resource/Rima_Te_Wiata> .
 
 :RinkoKikuchi a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Rinko Kikuchi" .
+    rdfs:label "Rinko Kikuchi" ;
+    owl:sameAs <http://dbpedia.org/resource/Rinko_Kikuchi> .
 
 :RipTorn a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Rip Torn" .
+    rdfs:label "Rip Torn" ;
+    owl:sameAs <http://dbpedia.org/resource/Rip_Torn> .
 
 :RitaCortese a :Actor,
         owl:NamedIndividual ;
@@ -25618,11 +25672,13 @@
 
 :RizwanManji a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Rizwan Manji" .
+    rdfs:label "Rizwan Manji" ;
+    owl:sameAs <http://dbpedia.org/resource/Rizwan_Manji> .
 
 :RobCorddry a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Rob Corddry" .
+    rdfs:label "Rob Corddry" ;
+    owl:sameAs <http://dbpedia.org/resource/Rob_Corddry> .
 
 :RobLetterman a :Director,
         owl:NamedIndividual ;
@@ -25634,7 +25690,8 @@
 
 :RobertCarlyle a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Robert Carlyle" .
+    rdfs:label "Robert Carlyle" ;
+    owl:sameAs <http://dbpedia.org/resource/Robert_Carlyle> .
 
 :RobertEggers a :Director,
         owl:NamedIndividual ;
@@ -25642,15 +25699,18 @@
 
 :RobertHoffman a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Robert Hoffman" .
+    rdfs:label "Robert Hoffman" ;
+    owl:sameAs <http://dbpedia.org/resource/Robert_Hoffman_(actor)> .
 
 :RobertKnepper a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Robert Knepper" .
+    rdfs:label "Robert Knepper" ;
+    owl:sameAs <http://dbpedia.org/resource/Robert_Knepper> .
 
 :RobertSheehan a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Robert Sheehan" .
+    rdfs:label "Robert Sheehan" ;
+    owl:sameAs <http://dbpedia.org/resource/Robert_Sheehan> .
 
 :RobertStromberg a :Director,
         owl:NamedIndividual ;
@@ -25666,7 +25726,8 @@
 
 :RogerBart a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Roger Bart" .
+    rdfs:label "Roger Bart" ;
+    owl:sameAs <http://dbpedia.org/resource/Roger_Bart> .
 
 :RogerSpottiswoode a :Director,
         owl:NamedIndividual ;
@@ -25682,7 +25743,8 @@
 
 :RomainDuris a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Romain Duris" .
+    rdfs:label "Romain Duris" ;
+    owl:sameAs <http://dbpedia.org/resource/Romain_Duris> .
 
 :RomanJossart a :Actor,
         owl:NamedIndividual ;
@@ -25698,11 +25760,13 @@
 
 :RonLivingston a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Ron Livingston" .
+    rdfs:label "Ron Livingston" ;
+    owl:sameAs <http://dbpedia.org/resource/Ron_Livingston> .
 
 :RoryCochrane a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Rory Cochrane" .
+    rdfs:label "Rory Cochrane" ;
+    owl:sameAs <http://dbpedia.org/resource/Rory_Cochrane> .
 
 :RoryJ.Saper a :Actor,
         owl:NamedIndividual ;
@@ -25710,11 +25774,13 @@
 
 :RosemarieDeWitt a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Rosemarie DeWitt" .
+    rdfs:label "Rosemarie DeWitt" ;
+    owl:sameAs <http://dbpedia.org/resource/Rosemarie_DeWitt> .
 
 :RosieHuntington-Whiteley a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Rosie Huntington-Whiteley" .
+    rdfs:label "Rosie Huntington-Whiteley" ;
+    owl:sameAs <http://dbpedia.org/resource/Rosie_Huntington-Whiteley> .
 
 :RosieShaw a :Actor,
         owl:NamedIndividual ;
@@ -25734,11 +25800,13 @@
 
 :Rotimi a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Rotimi" .
+    rdfs:label "Rotimi" ;
+    owl:sameAs <http://dbpedia.org/resource/Rotimi_(actor)> .
 
 :RubyBarnhill a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Ruby Barnhill" .
+    rdfs:label "Ruby Barnhill" ;
+    owl:sameAs <http://dbpedia.org/resource/Ruby_Barnhill> .
 
 :RubénBlades a :Actor,
         owl:NamedIndividual ;
@@ -25746,7 +25814,8 @@
 
 :RudyYoungblood a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Rudy Youngblood" .
+    rdfs:label "Rudy Youngblood" ;
+    owl:sameAs <http://dbpedia.org/resource/Rudy_Youngblood> .
 
 :RufusSewell a :Actor,
         owl:NamedIndividual ;
@@ -25754,11 +25823,13 @@
 
 :RupertEvans a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Rupert Evans" .
+    rdfs:label "Rupert Evans" ;
+    owl:sameAs <http://dbpedia.org/resource/Rupert_Evans> .
 
 :RupertFriend a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Rupert Friend" .
+    rdfs:label "Rupert Friend" ;
+    owl:sameAs <http://dbpedia.org/resource/Rupert_Friend> .
 
 :RupertSanders a :Director,
         owl:NamedIndividual ;
@@ -25766,15 +25837,18 @@
 
 :RussellBrand a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Russell Brand" .
+    rdfs:label "Russell Brand" ;
+    owl:sameAs <http://dbpedia.org/resource/Russell_Brand> .
 
 :RutaGedmintas a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Ruta Gedmintas" .
+    rdfs:label "Ruta Gedmintas" ;
+    owl:sameAs <http://dbpedia.org/resource/Ruta_Gedmintas> .
 
 :RuthNegga a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Ruth Negga" .
+    rdfs:label "Ruth Negga" ;
+    owl:sameAs <http://dbpedia.org/resource/Ruth_Negga> .
 
 :RyanCoogler a :Director,
         owl:NamedIndividual ;
@@ -25782,11 +25856,13 @@
 
 :RyanLee a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Ryan Lee" .
+    rdfs:label "Ryan Lee" ;
+    owl:sameAs <http://dbpedia.org/resource/Ryan_Lee_(actor)> .
 
 :RyanPotter a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Ryan Potter" .
+    rdfs:label "Ryan Potter" ;
+    owl:sameAs <http://dbpedia.org/resource/Ryan_Potter> .
 
 :RyokoSeta a :Actor,
         owl:NamedIndividual ;
@@ -25818,11 +25894,13 @@
 
 :SakshiTanwar a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Sakshi Tanwar" .
+    rdfs:label "Sakshi Tanwar" ;
+    owl:sameAs <http://dbpedia.org/resource/Sakshi_Tanwar> .
 
 :SalimKechiouche a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Salim Kechiouche" .
+    rdfs:label "Salim Kechiouche" ;
+    owl:sameAs <http://dbpedia.org/resource/Salim_Kechiouche> .
 
 :SalliRichardson-Whitfield a :Actor,
         owl:NamedIndividual ;
@@ -25830,11 +25908,13 @@
 
 :SallyPhillips a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Sally Phillips" .
+    rdfs:label "Sally Phillips" ;
+    owl:sameAs <http://dbpedia.org/resource/Sally_Phillips> .
 
 :SamElliott a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Sam Elliott" .
+    rdfs:label "Sam Elliott" ;
+    owl:sameAs <http://dbpedia.org/resource/Sam_Elliott> .
 
 :SamQuartin a :Actor,
         owl:NamedIndividual ;
@@ -25842,11 +25922,13 @@
 
 :SamRiley a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Sam Riley" .
+    rdfs:label "Sam Riley" ;
+    owl:sameAs <http://dbpedia.org/resource/Sam_Riley> .
 
 :SamShepard a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Sam Shepard" .
+    rdfs:label "Sam Shepard" ;
+    owl:sameAs <http://dbpedia.org/resource/Sam_Shepard> .
 
 :SamTaylor-Johnson a :Director,
         owl:NamedIndividual ;
@@ -25854,23 +25936,28 @@
 
 :SamTrammell a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Sam Trammell" .
+    rdfs:label "Sam Trammell" ;
+    owl:sameAs <http://dbpedia.org/resource/Sam_Trammell> .
 
 :SamanthaIsler a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Samantha Isler" .
+    rdfs:label "Samantha Isler" ;
+    owl:sameAs <http://dbpedia.org/resource/Samantha_Isler> .
 
 :SamanthaMorton a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Samantha Morton" .
+    rdfs:label "Samantha Morton" ;
+    owl:sameAs <http://dbpedia.org/resource/Samantha_Morton> .
 
 :SamanthaRobinson a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Samantha Robinson" .
+    rdfs:label "Samantha Robinson" ;
+    owl:sameAs <http://dbpedia.org/resource/Samantha_Robinson_(American_actress)> .
 
 :SamanthaSloyan a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Samantha Sloyan" .
+    rdfs:label "Samantha Sloyan" ;
+    owl:sameAs <http://dbpedia.org/resource/Samantha_Sloyan> .
 
 :SandraHüller a :Actor,
         owl:NamedIndividual ;
@@ -25886,59 +25973,73 @@
 
 :SanjayDutt a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Sanjay Dutt" .
+    rdfs:label "Sanjay Dutt" ;
+    owl:sameAs <http://dbpedia.org/resource/Sanjay_Dutt> .
 
 :SanjeevBhaskar a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Sanjeev Bhaskar" .
+    rdfs:label "Sanjeev Bhaskar" ;
+    owl:sameAs <http://dbpedia.org/resource/Sanjeev_Bhaskar> .
 
 :SanyaMalhotra a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Sanya Malhotra" .
+    rdfs:label "Sanya Malhotra" ;
+    owl:sameAs <http://dbpedia.org/resource/Sanya_Malhotra> .
 
 :SaoriHayami a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Saori Hayami" .
+    rdfs:label "Saori Hayami" ;
+    owl:sameAs <http://dbpedia.org/resource/Saori_Hayami> .
 
 :SarahButler a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Sarah Butler" .
+    rdfs:label "Sarah Butler" ;
+    owl:sameAs <http://dbpedia.org/resource/Sarah_Butler_(actress)> .
 
 :SarahClarke a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Sarah Clarke" .
+    rdfs:label "Sarah Clarke" ;
+    owl:sameAs <http://dbpedia.org/resource/Sarah_Clarke> .
 
 :SarahDumont a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Sarah Dumont" .
+    rdfs:label "Sarah Dumont" ;
+    owl:sameAs <http://dbpedia.org/resource/Sarah_Dumont> .
 
 :SarahHyland a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Sarah Hyland" .
+    rdfs:label "Sarah Hyland" ;
+    owl:sameAs <http://dbpedia.org/resource/Sarah_Hyland> .
 
 :SarahPaulson a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Sarah Paulson" .
+    rdfs:label "Sarah Paulson" ;
+    owl:sameAs <http://dbpedia.org/resource/Sarah_Paulson> .
 
 :SarahPolley a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Sarah Polley" .
+    rdfs:label "Sarah Polley" ;
+    owl:sameAs <http://dbpedia.org/resource/Sarah_Polley> .
 
 :SarahSnook a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Sarah Snook" .
+    rdfs:label "Sarah Snook" ;
+    owl:sameAs <http://dbpedia.org/resource/Sarah_Snook> .
 
 :SaritaChoudhury a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Sarita Choudhury" .
+    rdfs:label "Sarita Choudhury" ;
+    owl:sameAs <http://dbpedia.org/resource/Sarita_Choudhury> .
 
 :SashaLane a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Sasha Lane" .
+    rdfs:label "Sasha Lane" ;
+    owl:sameAs <http://dbpedia.org/resource/Sasha_Lane> .
 
 :SatomiIshihara a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Satomi Ishihara" .
+    rdfs:label "Satomi Ishihara" ;
+    owl:sameAs <http://dbpedia.org/resource/Satomi_Ishihara> .
 
 :SaulDibb a :Director,
         owl:NamedIndividual ;
@@ -25950,7 +26051,8 @@
 
 :Scorcher a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Scorcher" .
+    rdfs:label "Scorcher" ;
+    owl:sameAs <http://dbpedia.org/resource/Scorcher_(rapper)> .
 
 :ScotArmstrong a :Director,
         owl:NamedIndividual ;
@@ -25958,11 +26060,13 @@
 
 :ScottAdkins a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Scott Adkins" .
+    rdfs:label "Scott Adkins" ;
+    owl:sameAs <http://dbpedia.org/resource/Scott_Adkins> .
 
 :ScottAdsit a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Scott Adsit" .
+    rdfs:label "Scott Adsit" ;
+    owl:sameAs <http://dbpedia.org/resource/Scott_Adsit> .
 
 :ScottFrank a :Director,
         owl:NamedIndividual ;
@@ -25970,7 +26074,8 @@
 
 :ScottLawrence a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Scott Lawrence" .
+    rdfs:label "Scott Lawrence" ;
+    owl:sameAs <http://dbpedia.org/resource/Scott_Lawrence> .
 
 :ScottMescudi a :Actor,
         owl:NamedIndividual ;
@@ -25978,7 +26083,8 @@
 
 :ScottSpeedman a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Scott Speedman" .
+    rdfs:label "Scott Speedman" ;
+    owl:sameAs <http://dbpedia.org/resource/Scott_Speedman> .
 
 :ScottStewart a :Director,
         owl:NamedIndividual ;
@@ -26002,7 +26108,8 @@
 
 :SeanFaris a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Sean Faris" .
+    rdfs:label "Sean Faris" ;
+    owl:sameAs <http://dbpedia.org/resource/Sean_Faris> .
 
 :SeanFoley a :Director,
         owl:NamedIndividual ;
@@ -26010,23 +26117,28 @@
 
 :SeanPatrickThomas a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Sean Patrick Thomas" .
+    rdfs:label "Sean Patrick Thomas" ;
+    owl:sameAs <http://dbpedia.org/resource/Sean_Patrick_Thomas> .
 
 :SeannWilliamScott a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Seann William Scott" .
+    rdfs:label "Seann William Scott" ;
+    owl:sameAs <http://dbpedia.org/resource/Seann_William_Scott> .
 
 :SebastianKoch a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Sebastian Koch" .
+    rdfs:label "Sebastian Koch" ;
+    owl:sameAs <http://dbpedia.org/resource/Sebastian_Koch> .
 
 :SebastianPigott a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Sebastian Pigott" .
+    rdfs:label "Sebastian Pigott" ;
+    owl:sameAs <http://dbpedia.org/resource/Sebastian_Pigott> .
 
 :SebastianStan a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Sebastian Stan" .
+    rdfs:label "Sebastian Stan" ;
+    owl:sameAs <http://dbpedia.org/resource/Sebastian_Stan> .
 
 :SelmaBlair a :Actor,
         owl:NamedIndividual ;
@@ -26050,7 +26162,8 @@
 
 :SeychelleGabriel a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Seychelle Gabriel" .
+    rdfs:label "Seychelle Gabriel" ;
+    owl:sameAs <http://dbpedia.org/resource/Seychelle_Gabriel> .
 
 :ShadMoss a :Actor,
         owl:NamedIndividual ;
@@ -26058,15 +26171,18 @@
 
 :ShahRukhKhan a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Shah Rukh Khan" .
+    rdfs:label "Shah Rukh Khan" ;
+    owl:sameAs <http://dbpedia.org/resource/Shah_Rukh_Khan> .
 
 :ShahabHosseini a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Shahab Hosseini" .
+    rdfs:label "Shahab Hosseini" ;
+    owl:sameAs <http://dbpedia.org/resource/Shahab_Hosseini> .
 
 :ShameikMoore a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Shameik Moore" .
+    rdfs:label "Shameik Moore" ;
+    owl:sameAs <http://dbpedia.org/resource/Shameik_Moore> .
 
 :ShanaFeste a :Director,
         owl:NamedIndividual ;
@@ -26074,11 +26190,13 @@
 
 :ShannonWoodward a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Shannon Woodward" .
+    rdfs:label "Shannon Woodward" ;
+    owl:sameAs <http://dbpedia.org/resource/Shannon_Woodward> .
 
 :ShareekaEpps a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Shareeka Epps" .
+    rdfs:label "Shareeka Epps" ;
+    owl:sameAs <http://dbpedia.org/resource/Shareeka_Epps> .
 
 :ShariffEarp a :Actor,
         owl:NamedIndividual ;
@@ -26086,7 +26204,8 @@
 
 :SharmanJoshi a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Sharman Joshi" .
+    rdfs:label "Sharman Joshi" ;
+    owl:sameAs <http://dbpedia.org/resource/Sharman_Joshi> .
 
 :SharonMaguire a :Director,
         owl:NamedIndividual ;
@@ -26102,7 +26221,8 @@
 
 :ShawnRoberts a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Shawn Roberts" .
+    rdfs:label "Shawn Roberts" ;
+    owl:sameAs <http://dbpedia.org/resource/Shawn_Roberts> .
 
 :SheaAdams a :Actor,
         owl:NamedIndividual ;
@@ -26110,19 +26230,23 @@
 
 :SheilaKelley a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Sheila Kelley" .
+    rdfs:label "Sheila Kelley" ;
+    owl:sameAs <http://dbpedia.org/resource/Sheila_Kelley_(British_actress)> .
 
 :ShelleyHennig a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Shelley Hennig" .
+    rdfs:label "Shelley Hennig" ;
+    owl:sameAs <http://dbpedia.org/resource/Shelley_Hennig> .
 
 :SheriMoonZombie a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Sheri Moon Zombie" .
+    rdfs:label "Sheri Moon Zombie" ;
+    owl:sameAs <http://dbpedia.org/resource/Sheri_Moon_Zombie> .
 
 :ShilohFernandez a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Shiloh Fernandez" .
+    rdfs:label "Shiloh Fernandez" ;
+    owl:sameAs <http://dbpedia.org/resource/Shiloh_Fernandez> .
 
 :ShoneRomulus a :Actor,
         owl:NamedIndividual ;
@@ -26146,7 +26270,8 @@
 
 :SimonHelberg a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Simon Helberg" .
+    rdfs:label "Simon Helberg" ;
+    owl:sameAs <http://dbpedia.org/resource/Simon_Helberg> .
 
 :SimonStone a :Director,
         owl:NamedIndividual ;
@@ -26184,9 +26309,10 @@
         owl:NamedIndividual ;
     rdfs:label "So Yong Kim" .
 
-<http://example.org/SofiaBlack-D'Elia> a :Actor,
+<http://semweb-k-movies.up.railway.app/movies/SofiaBlack-D'Elia> a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Sofia Black-D'Elia" .
+    rdfs:label "Sofia Black-D'Elia" ;
+    owl:sameAs <http://dbpedia.org/resource/Sofia_Black-D'Elia> .
 
 :SofiaCoppola a :Director,
         owl:NamedIndividual ;
@@ -26194,11 +26320,13 @@
 
 :SoledadVillamil a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Soledad Villamil" .
+    rdfs:label "Soledad Villamil" ;
+    owl:sameAs <http://dbpedia.org/resource/Soledad_Villamil> .
 
 :SonoyaMizuno a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Sonoya Mizuno" .
+    rdfs:label "Sonoya Mizuno" ;
+    owl:sameAs <http://dbpedia.org/resource/Sonoya_Mizuno> .
 
 :Soo-anKim a :Actor,
         owl:NamedIndividual ;
@@ -26210,7 +26338,8 @@
 
 :SophieOkonedo a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Sophie Okonedo" .
+    rdfs:label "Sophie Okonedo" ;
+    owl:sameAs <http://dbpedia.org/resource/Sophie_Okonedo> .
 
 :SophiePerry a :Actor,
         owl:NamedIndividual ;
@@ -26220,7 +26349,7 @@
         owl:NamedIndividual ;
     rdfs:label "Spike Jonze" .
 
-<http://example.org/Srdjan'Zika'Todorovic> a :Actor,
+<http://semweb-k-movies.up.railway.app/movies/Srdjan'Zika'Todorovic> a :Actor,
         owl:NamedIndividual ;
     rdfs:label "Srdjan 'Zika' Todorovic" .
 
@@ -26230,11 +26359,13 @@
 
 :StacyMartin a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Stacy Martin" .
+    rdfs:label "Stacy Martin" ;
+    owl:sameAs <http://dbpedia.org/resource/Stacy_Martin> .
 
 :SteeleStebbins a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Steele Stebbins" .
+    rdfs:label "Steele Stebbins" ;
+    owl:sameAs <http://dbpedia.org/resource/Steele_Stebbins> .
 
 :StephenChbosky a :Director,
         owl:NamedIndividual ;
@@ -26242,11 +26373,13 @@
 
 :StephenCurry a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Stephen Curry" .
+    rdfs:label "Stephen Curry" ;
+    owl:sameAs <http://dbpedia.org/resource/Stephen_Curry> .
 
 :StephenDorff a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Stephen Dorff" .
+    rdfs:label "Stephen Dorff" ;
+    owl:sameAs <http://dbpedia.org/resource/Stephen_Dorff> .
 
 :StephenFingleton a :Director,
         owl:NamedIndividual ;
@@ -26266,15 +26399,18 @@
 
 :StephenMerchant a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Stephen Merchant" .
+    rdfs:label "Stephen Merchant" ;
+    owl:sameAs <http://dbpedia.org/resource/Stephen_Merchant> .
 
 :StephenMoyer a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Stephen Moyer" .
+    rdfs:label "Stephen Moyer" ;
+    owl:sameAs <http://dbpedia.org/resource/Stephen_Moyer> .
 
 :StephenRea a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Stephen Rea" .
+    rdfs:label "Stephen Rea" ;
+    owl:sameAs <http://dbpedia.org/resource/Stephen_Rea> .
 
 :StephenSommers a :Director,
         owl:NamedIndividual ;
@@ -26282,11 +26418,13 @@
 
 :SteveBuscemi a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Steve Buscemi" .
+    rdfs:label "Steve Buscemi" ;
+    owl:sameAs <http://dbpedia.org/resource/Steve_Buscemi> .
 
 :SteveCoogan a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Steve Coogan" .
+    rdfs:label "Steve Coogan" ;
+    owl:sameAs <http://dbpedia.org/resource/Steve_Coogan> .
 
 :SteveLantz a :Actor,
         owl:NamedIndividual ;
@@ -26294,19 +26432,23 @@
 
 :SteveMartin a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Steve Martin" .
+    rdfs:label "Steve Martin" ;
+    owl:sameAs <http://dbpedia.org/resource/Steve_Martin> .
 
 :SteveOram a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Steve Oram" .
+    rdfs:label "Steve Oram" ;
+    owl:sameAs <http://dbpedia.org/resource/Steve_Oram> .
 
 :SteveTom a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Steve Tom" .
+    rdfs:label "Steve Tom" ;
+    owl:sameAs <http://dbpedia.org/resource/Steve_Tom> .
 
 :SteveWiebe a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Steve Wiebe" .
+    rdfs:label "Steve Wiebe" ;
+    owl:sameAs <http://dbpedia.org/resource/Steve_Wiebe> .
 
 :StevenBrill a :Director,
         owl:NamedIndividual ;
@@ -26318,15 +26460,18 @@
 
 :StevenKrueger a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Steven Krueger" .
+    rdfs:label "Steven Krueger" ;
+    owl:sameAs <http://dbpedia.org/resource/Steven_Krueger> .
 
 :StevenMackintosh a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Steven Mackintosh" .
+    rdfs:label "Steven Mackintosh" ;
+    owl:sameAs <http://dbpedia.org/resource/Steven_Mackintosh> .
 
 :StevenPasquale a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Steven Pasquale" .
+    rdfs:label "Steven Pasquale" ;
+    owl:sameAs <http://dbpedia.org/resource/Steven_Pasquale> .
 
 :StevenQuale a :Director,
         owl:NamedIndividual ;
@@ -26342,7 +26487,8 @@
 
 :StevenYeun a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Steven Yeun" .
+    rdfs:label "Steven Yeun" ;
+    owl:sameAs <http://dbpedia.org/resource/Steven_Yeun> .
 
 :StewartHendler a :Director,
         owl:NamedIndividual ;
@@ -26354,11 +26500,13 @@
 
 :StormReid a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Storm Reid" .
+    rdfs:label "Storm Reid" ;
+    owl:sameAs <http://dbpedia.org/resource/Storm_Reid> .
 
 :StuartGraham a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Stuart Graham" .
+    rdfs:label "Stuart Graham" ;
+    owl:sameAs <http://dbpedia.org/resource/Stuart_Graham_(actor)> .
 
 :SuElliot a :Actor,
         owl:NamedIndividual ;
@@ -26370,7 +26518,8 @@
 
 :SullivanStapleton a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Sullivan Stapleton" .
+    rdfs:label "Sullivan Stapleton" ;
+    owl:sameAs <http://dbpedia.org/resource/Sullivan_Stapleton> .
 
 :SunnyPawar a :Actor,
         owl:NamedIndividual ;
@@ -26378,7 +26527,8 @@
 
 :SurajSharma a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Suraj Sharma" .
+    rdfs:label "Suraj Sharma" ;
+    owl:sameAs <http://dbpedia.org/resource/Suraj_Sharma> .
 
 :SusanLoughnane a :Actor,
         owl:NamedIndividual ;
@@ -26386,7 +26536,8 @@
 
 :SusiePorter a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Susie Porter" .
+    rdfs:label "Susie Porter" ;
+    owl:sameAs <http://dbpedia.org/resource/Susie_Porter> .
 
 :SuzanneClément a :Actor,
         owl:NamedIndividual ;
@@ -26394,27 +26545,33 @@
 
 :SylviaHoeks a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Sylvia Hoeks" .
+    rdfs:label "Sylvia Hoeks" ;
+    owl:sameAs <http://dbpedia.org/resource/Sylvia_Hoeks> .
 
-<http://example.org/T.I.> a :Actor,
+<http://semweb-k-movies.up.railway.app/movies/T.I.> a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "T.I." .
+    rdfs:label "T.I." ;
+    owl:sameAs <http://dbpedia.org/resource/T.I.> .
 
 :T.R.Knight a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "T.R. Knight" .
+    rdfs:label "T.R. Knight" ;
+    owl:sameAs <http://dbpedia.org/resource/T._R._Knight> .
 
 :Tabu a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Tabu" .
+    rdfs:label "Tabu" ;
+    owl:sameAs <http://dbpedia.org/resource/Tabu_(actress)> .
 
 :TadanobuAsano a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Tadanobu Asano" .
+    rdfs:label "Tadanobu Asano" ;
+    owl:sameAs <http://dbpedia.org/resource/Tadanobu_Asano> .
 
 :TaissaFarmiga a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Taissa Farmiga" .
+    rdfs:label "Taissa Farmiga" ;
+    owl:sameAs <http://dbpedia.org/resource/Taissa_Farmiga> .
 
 :TamannaahBhatia a :Actor,
         owl:NamedIndividual ;
@@ -26422,7 +26579,8 @@
 
 :TammyBlanchard a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Tammy Blanchard" .
+    rdfs:label "Tammy Blanchard" ;
+    owl:sameAs <http://dbpedia.org/resource/Tammy_Blanchard> .
 
 :TanayChheda a :Actor,
         owl:NamedIndividual ;
@@ -26434,15 +26592,18 @@
 
 :TaniaRaymonde a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Tania Raymonde" .
+    rdfs:label "Tania Raymonde" ;
+    owl:sameAs <http://dbpedia.org/resource/Tania_Raymonde> .
 
 :TaoOkamoto a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Tao Okamoto" .
+    rdfs:label "Tao Okamoto" ;
+    owl:sameAs <http://dbpedia.org/resource/Tao_Okamoto> .
 
 :TaranehAlidoosti a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Taraneh Alidoosti" .
+    rdfs:label "Taraneh Alidoosti" ;
+    owl:sameAs <http://dbpedia.org/resource/Taraneh_Alidoosti> .
 
 :TatianaPauhofová a :Actor,
         owl:NamedIndividual ;
@@ -26454,23 +26615,28 @@
 
 :TaylorSchilling a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Taylor Schilling" .
+    rdfs:label "Taylor Schilling" ;
+    owl:sameAs <http://dbpedia.org/resource/Taylor_Schilling> .
 
 :TaylorSwift a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Taylor Swift" .
+    rdfs:label "Taylor Swift" ;
+    owl:sameAs <http://dbpedia.org/resource/Taylor_Swift> .
 
 :TedLevine a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Ted Levine" .
+    rdfs:label "Ted Levine" ;
+    owl:sameAs <http://dbpedia.org/resource/Ted_Levine> .
 
 :TemueraMorrison a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Temuera Morrison" .
+    rdfs:label "Temuera Morrison" ;
+    owl:sameAs <http://dbpedia.org/resource/Temuera_Morrison> .
 
 :TeodoraDuhovnikova a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Teodora Duhovnikova" .
+    rdfs:label "Teodora Duhovnikova" ;
+    owl:sameAs <http://dbpedia.org/resource/Teodora_Duhovnikova> .
 
 :TerenceDavies a :Director,
         owl:NamedIndividual ;
@@ -26478,7 +26644,8 @@
 
 :TerenceStamp a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Terence Stamp" .
+    rdfs:label "Terence Stamp" ;
+    owl:sameAs <http://dbpedia.org/resource/Terence_Stamp> .
 
 :TeresaNavarro a :Actor,
         owl:NamedIndividual ;
@@ -26486,11 +26653,13 @@
 
 :TeriHatcher a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Teri Hatcher" .
+    rdfs:label "Teri Hatcher" ;
+    owl:sameAs <http://dbpedia.org/resource/Teri_Hatcher> .
 
 :TerryChen a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Terry Chen" .
+    rdfs:label "Terry Chen" ;
+    owl:sameAs <http://dbpedia.org/resource/Terry_Chen> .
 
 :TerryGeorge a :Director,
         owl:NamedIndividual ;
@@ -26506,7 +26675,8 @@
 
 :TeyonahParris a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Teyonah Parris" .
+    rdfs:label "Teyonah Parris" ;
+    owl:sameAs <http://dbpedia.org/resource/Teyonah_Parris> .
 
 :TheaSharrock a :Director,
         owl:NamedIndividual ;
@@ -26514,7 +26684,8 @@
 
 :TheoRossi a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Theo Rossi" .
+    rdfs:label "Theo Rossi" ;
+    owl:sameAs <http://dbpedia.org/resource/Theo_Rossi> .
 
 :TheodoreMelfi a :Director,
         owl:NamedIndividual ;
@@ -26522,7 +26693,8 @@
 
 :ThomasBoLarsen a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Thomas Bo Larsen" .
+    rdfs:label "Thomas Bo Larsen" ;
+    owl:sameAs <http://dbpedia.org/resource/Thomas_Bo_Larsen> .
 
 :ThomasLoibl a :Actor,
         owl:NamedIndividual ;
@@ -26530,11 +26702,13 @@
 
 :ThomasM.Wright a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Thomas M. Wright" .
+    rdfs:label "Thomas M. Wright" ;
+    owl:sameAs <http://dbpedia.org/resource/Thomas_M._Wright> .
 
 :ThomasMiddleditch a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Thomas Middleditch" .
+    rdfs:label "Thomas Middleditch" ;
+    owl:sameAs <http://dbpedia.org/resource/Thomas_Middleditch> .
 
 :ThomasVinterberg a :Director,
         owl:NamedIndividual ;
@@ -26546,7 +26720,8 @@
 
 :TiffanyHaddish a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Tiffany Haddish" .
+    rdfs:label "Tiffany Haddish" ;
+    owl:sameAs <http://dbpedia.org/resource/Tiffany_Haddish> .
 
 :TijuanaRicks a :Actor,
         owl:NamedIndividual ;
@@ -26558,7 +26733,8 @@
 
 :TimAllen a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Tim Allen" .
+    rdfs:label "Tim Allen" ;
+    owl:sameAs <http://dbpedia.org/resource/Tim_Allen> .
 
 :TimBlakeNelson a :Actor,
         owl:NamedIndividual ;
@@ -26570,7 +26746,8 @@
 
 :TimMcGraw a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Tim McGraw" .
+    rdfs:label "Tim McGraw" ;
+    owl:sameAs <http://dbpedia.org/resource/Tim_McGraw> .
 
 :TimMiller a :Director,
         owl:NamedIndividual ;
@@ -26578,15 +26755,18 @@
 
 :TimPigott-Smith a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Tim Pigott-Smith" .
+    rdfs:label "Tim Pigott-Smith" ;
+    owl:sameAs <http://dbpedia.org/resource/Tim_Pigott-Smith> .
 
 :TobiasMenzies a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Tobias Menzies" .
+    rdfs:label "Tobias Menzies" ;
+    owl:sameAs <http://dbpedia.org/resource/Tobias_Menzies> .
 
 :TobyJones a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Toby Jones" .
+    rdfs:label "Toby Jones" ;
+    owl:sameAs <http://dbpedia.org/resource/Toby_Jones> .
 
 :ToddHaynes a :Director,
         owl:NamedIndividual ;
@@ -26602,11 +26782,13 @@
 
 :TomCullen a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Tom Cullen" .
+    rdfs:label "Tom Cullen" ;
+    owl:sameAs <http://dbpedia.org/resource/Tom_Cullen> .
 
 :TomFelton a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Tom Felton" .
+    rdfs:label "Tom Felton" ;
+    owl:sameAs <http://dbpedia.org/resource/Tom_Felton> .
 
 :TomFord a :Director,
         owl:NamedIndividual ;
@@ -26622,7 +26804,8 @@
 
 :TomHughes a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Tom Hughes" .
+    rdfs:label "Tom Hughes" ;
+    owl:sameAs <http://dbpedia.org/resource/Tom_Hughes_(actor)> .
 
 :TomMcCarthy a :Director,
         owl:NamedIndividual ;
@@ -26634,11 +26817,13 @@
 
 :TomMison a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Tom Mison" .
+    rdfs:label "Tom Mison" ;
+    owl:sameAs <http://dbpedia.org/resource/Tom_Mison> .
 
 :TomPrior a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Tom Prior" .
+    rdfs:label "Tom Prior" ;
+    owl:sameAs <http://dbpedia.org/resource/Tom_Prior> .
 
 :TomSix a :Director,
         owl:NamedIndividual ;
@@ -26646,7 +26831,8 @@
 
 :TomSizemore a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Tom Sizemore" .
+    rdfs:label "Tom Sizemore" ;
+    owl:sameAs <http://dbpedia.org/resource/Tom_Sizemore> .
 
 :TomasAlfredson a :Director,
         owl:NamedIndividual ;
@@ -26658,11 +26844,13 @@
 
 :TonyAmendola a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Tony Amendola" .
+    rdfs:label "Tony Amendola" ;
+    owl:sameAs <http://dbpedia.org/resource/Tony_Amendola> .
 
 :TonyDanza a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Tony Danza" .
+    rdfs:label "Tony Danza" ;
+    owl:sameAs <http://dbpedia.org/resource/Tony_Danza> .
 
 :TonyGilroy a :Director,
         owl:NamedIndividual ;
@@ -26670,11 +26858,13 @@
 
 :TonyGoldwyn a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Tony Goldwyn" .
+    rdfs:label "Tony Goldwyn" ;
+    owl:sameAs <http://dbpedia.org/resource/Tony_Goldwyn> .
 
 :TravisFimmel a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Travis Fimmel" .
+    rdfs:label "Travis Fimmel" ;
+    owl:sameAs <http://dbpedia.org/resource/Travis_Fimmel> .
 
 :TravisKnight a :Director,
         owl:NamedIndividual ;
@@ -26682,7 +26872,8 @@
 
 :TravisTope a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Travis Tope" .
+    rdfs:label "Travis Tope" ;
+    owl:sameAs <http://dbpedia.org/resource/Travis_Tope> .
 
 :TrentonRogers a :Actor,
         owl:NamedIndividual ;
@@ -26694,11 +26885,13 @@
 
 :TylerHoechlin a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Tyler Hoechlin" .
+    rdfs:label "Tyler Hoechlin" ;
+    owl:sameAs <http://dbpedia.org/resource/Tyler_Hoechlin> .
 
 :TylerJamesWilliams a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Tyler James Williams" .
+    rdfs:label "Tyler James Williams" ;
+    owl:sameAs <http://dbpedia.org/resource/Tyler_James_Williams> .
 
 :TylerShields a :Director,
         owl:NamedIndividual ;
@@ -26706,7 +26899,8 @@
 
 :TyneDaly a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Tyne Daly" .
+    rdfs:label "Tyne Daly" ;
+    owl:sameAs <http://dbpedia.org/resource/Tyne_Daly> .
 
 :UlrichMühe a :Actor,
         owl:NamedIndividual ;
@@ -26714,7 +26908,8 @@
 
 :UlrichTukur a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Ulrich Tukur" .
+    rdfs:label "Ulrich Tukur" ;
+    owl:sameAs <http://dbpedia.org/resource/Ulrich_Tukur> .
 
 :UsherRaymond a :Actor,
         owl:NamedIndividual ;
@@ -26722,19 +26917,23 @@
 
 :ValKilmer a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Val Kilmer" .
+    rdfs:label "Val Kilmer" ;
+    owl:sameAs <http://dbpedia.org/resource/Val_Kilmer> .
 
 :ValerieMahaffey a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Valerie Mahaffey" .
+    rdfs:label "Valerie Mahaffey" ;
+    owl:sameAs <http://dbpedia.org/resource/Valerie_Mahaffey> .
 
 :VanessaFerlito a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Vanessa Ferlito" .
+    rdfs:label "Vanessa Ferlito" ;
+    owl:sameAs <http://dbpedia.org/resource/Vanessa_Ferlito> .
 
 :VanessaLachey a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Vanessa Lachey" .
+    rdfs:label "Vanessa Lachey" ;
+    owl:sameAs <http://dbpedia.org/resource/Vanessa_Lachey> .
 
 :VanessaRoss a :Actor,
         owl:NamedIndividual ;
@@ -26742,15 +26941,18 @@
 
 :VernettaLopez a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Vernetta Lopez" .
+    rdfs:label "Vernetta Lopez" ;
+    owl:sameAs <http://dbpedia.org/resource/Vernetta_Lopez> .
 
 :VickyKrieps a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Vicky Krieps" .
+    rdfs:label "Vicky Krieps" ;
+    owl:sameAs <http://dbpedia.org/resource/Vicky_Krieps> .
 
 :VictoriaJustice a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Victoria Justice" .
+    rdfs:label "Victoria Justice" ;
+    owl:sameAs <http://dbpedia.org/resource/Victoria_Justice> .
 
 :VilenBabichev a :Actor,
         owl:NamedIndividual ;
@@ -26762,7 +26964,8 @@
 
 :VincentKartheiser a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Vincent Kartheiser" .
+    rdfs:label "Vincent Kartheiser" ;
+    owl:sameAs <http://dbpedia.org/resource/Vincent_Kartheiser> .
 
 :WallyPfister a :Director,
         owl:NamedIndividual ;
@@ -26778,11 +26981,13 @@
 
 :WaltonGoggins a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Walton Goggins" .
+    rdfs:label "Walton Goggins" ;
+    owl:sameAs <http://dbpedia.org/resource/Walton_Goggins> .
 
 :WardHorton a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Ward Horton" .
+    rdfs:label "Ward Horton" ;
+    owl:sameAs <http://dbpedia.org/resource/Ward_Horton> .
 
 :WarrenBeatty a :Director,
         owl:NamedIndividual ;
@@ -26794,7 +26999,8 @@
 
 :WendyCrewson a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Wendy Crewson" .
+    rdfs:label "Wendy Crewson" ;
+    owl:sameAs <http://dbpedia.org/resource/Wendy_Crewson> .
 
 :WenwenHan a :Actor,
         owl:NamedIndividual ;
@@ -26826,7 +27032,8 @@
 
 :WilliamAtherton a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "William Atherton" .
+    rdfs:label "William Atherton" ;
+    owl:sameAs <http://dbpedia.org/resource/William_Atherton> .
 
 :WilliamBrentBell a :Director,
         owl:NamedIndividual ;
@@ -26834,7 +27041,8 @@
 
 :WilliamMoseley a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "William Moseley" .
+    rdfs:label "William Moseley" ;
+    owl:sameAs <http://dbpedia.org/resource/William_Moseley_(actor)> .
 
 :WilliamOldroyd a :Director,
         owl:NamedIndividual ;
@@ -26842,7 +27050,8 @@
 
 :WinonaRyder a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Winona Ryder" .
+    rdfs:label "Winona Ryder" ;
+    owl:sameAs <http://dbpedia.org/resource/Winona_Ryder> .
 
 :Woo-heeChun a :Actor,
         owl:NamedIndividual ;
@@ -26850,7 +27059,8 @@
 
 :WyattRussell a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Wyatt Russell" .
+    rdfs:label "Wyatt Russell" ;
+    owl:sameAs <http://dbpedia.org/resource/Wyatt_Russell> .
 
 :YimouZhang a :Director,
         owl:NamedIndividual ;
@@ -26866,27 +27076,32 @@
 
 :YutakaTakenouchi a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Yutaka Takenouchi" .
+    rdfs:label "Yutaka Takenouchi" ;
+    owl:sameAs <http://dbpedia.org/resource/Yutaka_Takenouchi> .
 
-<http://example.org/ZacMattoonO'Brien> a :Actor,
+<http://semweb-k-movies.up.railway.app/movies/ZacMattoonO'Brien> a :Actor,
         owl:NamedIndividual ;
     rdfs:label "Zac Mattoon O'Brien" .
 
 :ZachGrenier a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Zach Grenier" .
+    rdfs:label "Zach Grenier" ;
+    owl:sameAs <http://dbpedia.org/resource/Zach_Grenier> .
 
 :ZacharyBennett a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Zachary Bennett" .
+    rdfs:label "Zachary Bennett" ;
+    owl:sameAs <http://dbpedia.org/resource/Zachary_Bennett> .
 
 :ZacharyLevi a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Zachary Levi" .
+    rdfs:label "Zachary Levi" ;
+    owl:sameAs <http://dbpedia.org/resource/Zachary_Levi> .
 
 :ZacheryTyBryan a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Zachery Ty Bryan" .
+    rdfs:label "Zachery Ty Bryan" ;
+    owl:sameAs <http://dbpedia.org/resource/Zachery_Ty_Bryan> .
 
 :ZackaryAdler a :Director,
         owl:NamedIndividual ;
@@ -26894,7 +27109,8 @@
 
 :ZoeKazan a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Zoe Kazan" .
+    rdfs:label "Zoe Kazan" ;
+    owl:sameAs <http://dbpedia.org/resource/Zoe_Kazan> .
 
 :ÉmilieLeclerc a :Actor,
         owl:NamedIndividual ;
@@ -27251,7 +27467,7 @@ xsd:gYear a rdfs:Datatype .
         owl:NamedIndividual ;
     rdfs:label "Christopher Smith" .
 
-<http://example.org/CliftonCollinsJr.> a :Actor,
+<http://semweb-k-movies.up.railway.app/movies/CliftonCollinsJr.> a :Actor,
         owl:NamedIndividual ;
     rdfs:label "Clifton Collins Jr." ;
     owl:sameAs <http://dbpedia.org/resource/Clifton_Collins_Jr.> .
@@ -27513,7 +27729,7 @@ xsd:gYear a rdfs:Datatype .
         owl:NamedIndividual ;
     rdfs:label "Gary Ross" .
 
-<http://example.org/GavinO'Connor> a :Director,
+<http://semweb-k-movies.up.railway.app/movies/GavinO'Connor> a :Director,
         owl:NamedIndividual ;
     rdfs:label "Gavin O'Connor" .
 
@@ -27587,9 +27803,10 @@ xsd:gYear a rdfs:Datatype .
     rdfs:label "Jack Davenport" ;
     owl:sameAs <http://dbpedia.org/resource/Jack_Davenport> .
 
-<http://example.org/JackO'Connell> a :Actor,
+<http://semweb-k-movies.up.railway.app/movies/JackO'Connell> a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Jack O'Connell" .
+    rdfs:label "Jack O'Connell" ;
+    owl:sameAs <http://dbpedia.org/resource/Jack_O'Connell_(actor)> .
 
 :JackReynor a :Actor,
         owl:NamedIndividual ;
@@ -27639,9 +27856,10 @@ xsd:gYear a rdfs:Datatype .
         owl:NamedIndividual ;
     rdfs:label "Jason Moore" .
 
-<http://example.org/JasonO'Mara> a :Actor,
+<http://semweb-k-movies.up.railway.app/movies/JasonO'Mara> a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Jason O'Mara" .
+    rdfs:label "Jason O'Mara" ;
+    owl:sameAs <http://dbpedia.org/resource/Jason_O'Mara> .
 
 :JasonReitman a :Director,
         owl:NamedIndividual ;
@@ -28241,7 +28459,8 @@ xsd:gYear a rdfs:Datatype .
 
 :PatrickDempsey a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Patrick Dempsey" .
+    rdfs:label "Patrick Dempsey" ;
+    owl:sameAs <http://dbpedia.org/resource/Patrick_Dempsey> .
 
 :PaulMcGuigan a :Director,
         owl:NamedIndividual ;
@@ -28257,11 +28476,13 @@ xsd:gYear a rdfs:Datatype .
 
 :PeterDinklage a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Peter Dinklage" .
+    rdfs:label "Peter Dinklage" ;
+    owl:sameAs <http://dbpedia.org/resource/Peter_Dinklage> .
 
 :PeterStormare a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Peter Stormare" .
+    rdfs:label "Peter Stormare" ;
+    owl:sameAs <http://dbpedia.org/resource/Peter_Stormare> .
 
 :PeytonReed a :Director,
         owl:NamedIndividual ;
@@ -28277,15 +28498,18 @@ xsd:gYear a rdfs:Datatype .
 
 :PierreNiney a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Pierre Niney" .
+    rdfs:label "Pierre Niney" ;
+    owl:sameAs <http://dbpedia.org/resource/Pierre_Niney> .
 
 :RachaelHarris a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Rachael Harris" .
+    rdfs:label "Rachael Harris" ;
+    owl:sameAs <http://dbpedia.org/resource/Rachael_Harris> .
 
 :RachelHouse a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Rachel House" .
+    rdfs:label "Rachel House" ;
+    owl:sameAs <http://dbpedia.org/resource/Rachel_House_(actress)> .
 
 :RajkumarHirani a :Director,
         owl:NamedIndividual ;
@@ -28297,11 +28521,13 @@ xsd:gYear a rdfs:Datatype .
 
 :RayStevenson a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Ray Stevenson" .
+    rdfs:label "Ray Stevenson" ;
+    owl:sameAs <http://dbpedia.org/resource/Ray_Stevenson> .
 
 :ReneRusso a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Rene Russo" .
+    rdfs:label "Rene Russo" ;
+    owl:sameAs <http://dbpedia.org/resource/Rene_Russo> .
 
 :RenéeZellweger a :Actor,
         owl:NamedIndividual ;
@@ -28313,7 +28539,8 @@ xsd:gYear a rdfs:Datatype .
 
 :RichardDreyfuss a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Richard Dreyfuss" .
+    rdfs:label "Richard Dreyfuss" ;
+    owl:sameAs <http://dbpedia.org/resource/Richard_Dreyfuss> .
 
 :RichardLinklater a :Director,
         owl:NamedIndividual ;
@@ -28321,19 +28548,23 @@ xsd:gYear a rdfs:Datatype .
 
 :RichardMadden a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Richard Madden" .
+    rdfs:label "Richard Madden" ;
+    owl:sameAs <http://dbpedia.org/resource/Richard_Madden> .
 
 :Rihanna a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Rihanna" .
+    rdfs:label "Rihanna" ;
+    owl:sameAs <http://dbpedia.org/resource/Rihanna> .
 
 :RileyKeough a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Riley Keough" .
+    rdfs:label "Riley Keough" ;
+    owl:sameAs <http://dbpedia.org/resource/Riley_Keough> .
 
 :RizAhmed a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Riz Ahmed" .
+    rdfs:label "Riz Ahmed" ;
+    owl:sameAs <http://dbpedia.org/resource/Riz_Ahmed> .
 
 :RobCohen a :Director,
         owl:NamedIndividual ;
@@ -28345,15 +28576,18 @@ xsd:gYear a rdfs:Datatype .
 
 :RobRiggle a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Rob Riggle" .
+    rdfs:label "Rob Riggle" ;
+    owl:sameAs <http://dbpedia.org/resource/Rob_Riggle> .
 
 :RobbieAmell a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Robbie Amell" .
+    rdfs:label "Robbie Amell" ;
+    owl:sameAs <http://dbpedia.org/resource/Robbie_Amell> .
 
 :RobertDuvall a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Robert Duvall" .
+    rdfs:label "Robert Duvall" ;
+    owl:sameAs <http://dbpedia.org/resource/Robert_Duvall> .
 
 :RobertLuketic a :Director,
         owl:NamedIndividual ;
@@ -28361,11 +28595,13 @@ xsd:gYear a rdfs:Datatype .
 
 :RobertPatrick a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Robert Patrick" .
+    rdfs:label "Robert Patrick" ;
+    owl:sameAs <http://dbpedia.org/resource/Robert_Patrick> .
 
 :RobertRedford a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Robert Redford" .
+    rdfs:label "Robert Redford" ;
+    owl:sameAs <http://dbpedia.org/resource/Robert_Redford> .
 
 :RobertRodriguez a :Director,
         owl:NamedIndividual ;
@@ -28373,11 +28609,13 @@ xsd:gYear a rdfs:Datatype .
 
 :RobinWilliams a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Robin Williams" .
+    rdfs:label "Robin Williams" ;
+    owl:sameAs <http://dbpedia.org/resource/Robin_Williams> .
 
 :RodrigoSantoro a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Rodrigo Santoro" .
+    rdfs:label "Rodrigo Santoro" ;
+    owl:sameAs <http://dbpedia.org/resource/Rodrigo_Santoro> .
 
 :RonClements a :Director,
         owl:NamedIndividual ;
@@ -28385,11 +28623,13 @@ xsd:gYear a rdfs:Datatype .
 
 :RonnieGeneBlevins a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Ronnie Gene Blevins" .
+    rdfs:label "Ronnie Gene Blevins" ;
+    owl:sameAs <http://dbpedia.org/resource/Ronnie_Gene_Blevins> .
 
 :RoseLeslie a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Rose Leslie" .
+    rdfs:label "Rose Leslie" ;
+    owl:sameAs <http://dbpedia.org/resource/Rose_Leslie> .
 
 :RubenFleischer a :Director,
         owl:NamedIndividual ;
@@ -28401,27 +28641,33 @@ xsd:gYear a rdfs:Datatype .
 
 :RuthWilson a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Ruth Wilson" .
+    rdfs:label "Ruth Wilson" ;
+    owl:sameAs <http://dbpedia.org/resource/Ruth_Wilson> .
 
 :RyanGuzman a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Ryan Guzman" .
+    rdfs:label "Ryan Guzman" ;
+    owl:sameAs <http://dbpedia.org/resource/Ryan_Guzman> .
 
 :SallyField a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Sally Field" .
+    rdfs:label "Sally Field" ;
+    owl:sameAs <http://dbpedia.org/resource/Sally_Field> .
 
 :SallyHawkins a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Sally Hawkins" .
+    rdfs:label "Sally Hawkins" ;
+    owl:sameAs <http://dbpedia.org/resource/Sally_Hawkins> .
 
 :SalmaHayek a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Salma Hayek" .
+    rdfs:label "Salma Hayek" ;
+    owl:sameAs <http://dbpedia.org/resource/Salma_Hayek> .
 
 :SamNeill a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Sam Neill" .
+    rdfs:label "Sam Neill" ;
+    owl:sameAs <http://dbpedia.org/resource/Sam_Neill> .
 
 :SamRaimi a :Director,
         owl:NamedIndividual ;
@@ -28429,15 +28675,18 @@ xsd:gYear a rdfs:Datatype .
 
 :SarahJessicaParker a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Sarah Jessica Parker" .
+    rdfs:label "Sarah Jessica Parker" ;
+    owl:sameAs <http://dbpedia.org/resource/Sarah_Jessica_Parker> .
 
 :SarahRoemer a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Sarah Roemer" .
+    rdfs:label "Sarah Roemer" ;
+    owl:sameAs <http://dbpedia.org/resource/Sarah_Roemer> .
 
 :SarahSilverman a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Sarah Silverman" .
+    rdfs:label "Sarah Silverman" ;
+    owl:sameAs <http://dbpedia.org/resource/Sarah_Silverman> .
 
 :ScottCooper a :Director,
         owl:NamedIndividual ;
@@ -28449,11 +28698,13 @@ xsd:gYear a rdfs:Datatype .
 
 :ScottEastwood a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Scott Eastwood" .
+    rdfs:label "Scott Eastwood" ;
+    owl:sameAs <http://dbpedia.org/resource/Scott_Eastwood> .
 
 :ScottGlenn a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Scott Glenn" .
+    rdfs:label "Scott Glenn" ;
+    owl:sameAs <http://dbpedia.org/resource/Scott_Glenn> .
 
 :ScottHicks a :Director,
         owl:NamedIndividual ;
@@ -28473,7 +28724,8 @@ xsd:gYear a rdfs:Datatype .
 
 :SiennaGuillory a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Sienna Guillory" .
+    rdfs:label "Sienna Guillory" ;
+    owl:sameAs <http://dbpedia.org/resource/Sienna_Guillory> .
 
 :SpikeLee a :Director,
         owl:NamedIndividual ;
@@ -28481,24 +28733,29 @@ xsd:gYear a rdfs:Datatype .
 
 :StanleyTucci a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Stanley Tucci" .
+    rdfs:label "Stanley Tucci" ;
+    owl:sameAs <http://dbpedia.org/resource/Stanley_Tucci> .
 
 :StephenLang a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Stephen Lang" .
+    rdfs:label "Stephen Lang" ;
+    owl:sameAs <http://dbpedia.org/resource/Stephen_Lang> .
 
 :SusanSarandon a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Susan Sarandon" .
+    rdfs:label "Susan Sarandon" ;
+    owl:sameAs <http://dbpedia.org/resource/Susan_Sarandon> .
 
 :TaikaWaititi a :Actor,
         :Director,
         owl:NamedIndividual ;
-    rdfs:label "Taika Waititi" .
+    rdfs:label "Taika Waititi" ;
+    owl:sameAs <http://dbpedia.org/resource/Taika_Waititi> .
 
 :TarajiP.Henson a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Taraji P. Henson" .
+    rdfs:label "Taraji P. Henson" ;
+    owl:sameAs <http://dbpedia.org/resource/Taraji_P._Henson> .
 
 :TateTaylor a :Director,
         owl:NamedIndividual ;
@@ -28506,7 +28763,8 @@ xsd:gYear a rdfs:Datatype .
 
 :TerrenceHoward a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Terrence Howard" .
+    rdfs:label "Terrence Howard" ;
+    owl:sameAs <http://dbpedia.org/resource/Terrence_Howard> .
 
 :TerrenceMalick a :Director,
         owl:NamedIndividual ;
@@ -28514,15 +28772,18 @@ xsd:gYear a rdfs:Datatype .
 
 :ThomasBrodie-Sangster a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Thomas Brodie-Sangster" .
+    rdfs:label "Thomas Brodie-Sangster" ;
+    owl:sameAs <http://dbpedia.org/resource/Thomas_Brodie-Sangster> .
 
 :ThomasLennon a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Thomas Lennon" .
+    rdfs:label "Thomas Lennon" ;
+    owl:sameAs <http://dbpedia.org/resource/Thomas_Lennon> .
 
 :ThomasMann a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Thomas Mann" .
+    rdfs:label "Thomas Mann" ;
+    owl:sameAs <http://dbpedia.org/resource/Thomas_Mann_(actor)> .
 
 :ThorFreudenthal a :Director,
         owl:NamedIndividual ;
@@ -28530,11 +28791,13 @@ xsd:gYear a rdfs:Datatype .
 
 :TimothyOlyphant a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Timothy Olyphant" .
+    rdfs:label "Timothy Olyphant" ;
+    owl:sameAs <http://dbpedia.org/resource/Timothy_Olyphant> .
 
 :TimothySpall a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Timothy Spall" .
+    rdfs:label "Timothy Spall" ;
+    owl:sameAs <http://dbpedia.org/resource/Timothy_Spall> .
 
 :TimurBekmambetov a :Director,
         owl:NamedIndividual ;
@@ -28542,11 +28805,13 @@ xsd:gYear a rdfs:Datatype .
 
 :TobeyMaguire a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Tobey Maguire" .
+    rdfs:label "Tobey Maguire" ;
+    owl:sameAs <http://dbpedia.org/resource/Tobey_Maguire> .
 
 :TobyKebbell a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Toby Kebbell" .
+    rdfs:label "Toby Kebbell" ;
+    owl:sameAs <http://dbpedia.org/resource/Toby_Kebbell> .
 
 :ToddPhillips a :Director,
         owl:NamedIndividual ;
@@ -28554,15 +28819,18 @@ xsd:gYear a rdfs:Datatype .
 
 :TomHolland a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Tom Holland" .
+    rdfs:label "Tom Holland" ;
+    owl:sameAs <http://dbpedia.org/resource/Tom_Holland> .
 
 :ToniCollette a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Toni Collette" .
+    rdfs:label "Toni Collette" ;
+    owl:sameAs <http://dbpedia.org/resource/Toni_Collette> .
 
 :TonyRevolori a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Tony Revolori" .
+    rdfs:label "Tony Revolori" ;
+    owl:sameAs <http://dbpedia.org/resource/Tony_Revolori> .
 
 :TonyScott a :Director,
         owl:NamedIndividual ;
@@ -28574,40 +28842,49 @@ xsd:gYear a rdfs:Datatype .
 
 :TracyLetts a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Tracy Letts" .
+    rdfs:label "Tracy Letts" ;
+    owl:sameAs <http://dbpedia.org/resource/Tracy_Letts> .
 
 :TySimpkins a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Ty Simpkins" .
+    rdfs:label "Ty Simpkins" ;
+    owl:sameAs <http://dbpedia.org/resource/Ty_Simpkins> .
 
 :TylerPerry a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Tyler Perry" .
+    rdfs:label "Tyler Perry" ;
+    owl:sameAs <http://dbpedia.org/resource/Tyler_Perry> .
 
 :VanessaHudgens a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Vanessa Hudgens" .
+    rdfs:label "Vanessa Hudgens" ;
+    owl:sameAs <http://dbpedia.org/resource/Vanessa_Hudgens> .
 
 :VingRhames a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Ving Rhames" .
+    rdfs:label "Ving Rhames" ;
+    owl:sameAs <http://dbpedia.org/resource/Ving_Rhames> .
 
 :VinnieJones a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Vinnie Jones" .
+    rdfs:label "Vinnie Jones" ;
+    owl:sameAs <http://dbpedia.org/resource/Vinnie_Jones> .
 
 :WendiMcLendon-Covey a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Wendi McLendon-Covey" .
+    rdfs:label "Wendi McLendon-Covey" ;
+    owl:sameAs <http://dbpedia.org/resource/Wendi_McLendon-Covey> .
 
 :WentworthMiller a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Wentworth Miller" .
+    rdfs:label "Wentworth Miller" ;
+    owl:sameAs <http://dbpedia.org/resource/Wentworth_Miller> .
 
 :WernerHerzog a :Actor,
         :Director,
         owl:NamedIndividual ;
-    rdfs:label "Werner Herzog" .
+    rdfs:label "Werner Herzog" ;
+    owl:sameAs <http://dbpedia.org/resource/Werner_Herzog> .
 
 :WesBall a :Director,
         owl:NamedIndividual ;
@@ -28615,11 +28892,13 @@ xsd:gYear a rdfs:Datatype .
 
 :WesBentley a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Wes Bentley" .
+    rdfs:label "Wes Bentley" ;
+    owl:sameAs <http://dbpedia.org/resource/Wes_Bentley> .
 
 :WillPoulter a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Will Poulter" .
+    rdfs:label "Will Poulter" ;
+    owl:sameAs <http://dbpedia.org/resource/Will_Poulter> .
 
 :WilliamHurt a :Actor,
         owl:NamedIndividual ;
@@ -28824,9 +29103,10 @@ xsd:gYear a rdfs:Datatype .
     rdfs:label "Dylan Minnette" ;
     owl:sameAs <http://dbpedia.org/resource/Dylan_Minnette> .
 
-<http://example.org/DylanO'Brien> a :Actor,
+<http://semweb-k-movies.up.railway.app/movies/DylanO'Brien> a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Dylan O'Brien" .
+    rdfs:label "Dylan O'Brien" ;
+    owl:sameAs <http://dbpedia.org/resource/Dylan_O'Brien> .
 
 :EdHarris a :Actor,
         owl:NamedIndividual ;
@@ -28898,7 +29178,7 @@ xsd:gYear a rdfs:Datatype .
     rdfs:label "Gemma Arterton" ;
     owl:sameAs <http://dbpedia.org/resource/Gemma_Arterton> .
 
-<http://example.org/GeorgeTillmanJr.> a :Director,
+<http://semweb-k-movies.up.railway.app/movies/GeorgeTillmanJr.> a :Director,
         owl:NamedIndividual ;
     rdfs:label "George Tillman Jr." .
 
@@ -29017,7 +29297,7 @@ xsd:gYear a rdfs:Datatype .
     rdfs:label "John Cusack" ;
     owl:sameAs <http://dbpedia.org/resource/John_Cusack> .
 
-<http://example.org/JohnGallagherJr.> a :Actor,
+<http://semweb-k-movies.up.railway.app/movies/JohnGallagherJr.> a :Actor,
         owl:NamedIndividual ;
     rdfs:label "John Gallagher Jr." ;
     owl:sameAs <http://dbpedia.org/resource/John_Gallagher_Jr.> .
@@ -29295,15 +29575,18 @@ xsd:gYear a rdfs:Datatype .
 
 :PatrickStewart a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Patrick Stewart" .
+    rdfs:label "Patrick Stewart" ;
+    owl:sameAs <http://dbpedia.org/resource/Patrick_Stewart> .
 
 :PaulDano a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Paul Dano" .
+    rdfs:label "Paul Dano" ;
+    owl:sameAs <http://dbpedia.org/resource/Paul_Dano> .
 
 :PaulGiamatti a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Paul Giamatti" .
+    rdfs:label "Paul Giamatti" ;
+    owl:sameAs <http://dbpedia.org/resource/Paul_Giamatti> .
 
 :PaulGreengrass a :Director,
         owl:NamedIndividual ;
@@ -29320,23 +29603,28 @@ xsd:gYear a rdfs:Datatype .
 :PierreCoffin a :Actor,
         :Director,
         owl:NamedIndividual ;
-    rdfs:label "Pierre Coffin" .
+    rdfs:label "Pierre Coffin" ;
+    owl:sameAs <http://dbpedia.org/resource/Pierre_Coffin> .
 
 :RayWinstone a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Ray Winstone" .
+    rdfs:label "Ray Winstone" ;
+    owl:sameAs <http://dbpedia.org/resource/Ray_Winstone> .
 
 :RebeccaFerguson a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Rebecca Ferguson" .
+    rdfs:label "Rebecca Ferguson" ;
+    owl:sameAs <http://dbpedia.org/resource/Rebecca_Ferguson> .
 
 :RichardArmitage a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Richard Armitage" .
+    rdfs:label "Richard Armitage" ;
+    owl:sameAs <http://dbpedia.org/resource/Richard_Armitage_(actor)> .
 
 :RichardGere a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Richard Gere" .
+    rdfs:label "Richard Gere" ;
+    owl:sameAs <http://dbpedia.org/resource/Richard_Gere> .
 
 :RichardLaGravenese a :Director,
         owl:NamedIndividual ;
@@ -29352,7 +29640,8 @@ xsd:gYear a rdfs:Datatype .
 
 :RobinWright a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Robin Wright" .
+    rdfs:label "Robin Wright" ;
+    owl:sameAs <http://dbpedia.org/resource/Robin_Wright> .
 
 :RolandEmmerich a :Director,
         owl:NamedIndividual ;
@@ -29360,11 +29649,13 @@ xsd:gYear a rdfs:Datatype .
 
 :RoseMcGowan a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Rose McGowan" .
+    rdfs:label "Rose McGowan" ;
+    owl:sameAs <http://dbpedia.org/resource/Rose_McGowan> .
 
 :SachaBaronCohen a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Sacha Baron Cohen" .
+    rdfs:label "Sacha Baron Cohen" ;
+    owl:sameAs <http://dbpedia.org/resource/Sacha_Baron_Cohen> .
 
 :SamMendes a :Director,
         owl:NamedIndividual ;
@@ -29372,11 +29663,13 @@ xsd:gYear a rdfs:Datatype .
 
 :SamRockwell a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Sam Rockwell" .
+    rdfs:label "Sam Rockwell" ;
+    owl:sameAs <http://dbpedia.org/resource/Sam_Rockwell> .
 
 :SelenaGomez a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Selena Gomez" .
+    rdfs:label "Selena Gomez" ;
+    owl:sameAs <http://dbpedia.org/resource/Selena_Gomez> .
 
 :ShawnLevy a :Director,
         owl:NamedIndividual ;
@@ -29392,7 +29685,8 @@ xsd:gYear a rdfs:Datatype .
 
 :TaronEgerton a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Taron Egerton" .
+    rdfs:label "Taron Egerton" ;
+    owl:sameAs <http://dbpedia.org/resource/Taron_Egerton> .
 
 :TarsemSingh a :Director,
         owl:NamedIndividual ;
@@ -29400,15 +29694,18 @@ xsd:gYear a rdfs:Datatype .
 
 :TaylorKitsch a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Taylor Kitsch" .
+    rdfs:label "Taylor Kitsch" ;
+    owl:sameAs <http://dbpedia.org/resource/Taylor_Kitsch> .
 
 :TerryCrews a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Terry Crews" .
+    rdfs:label "Terry Crews" ;
+    owl:sameAs <http://dbpedia.org/resource/Terry_Crews> .
 
 :TessaThompson a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Tessa Thompson" .
+    rdfs:label "Tessa Thompson" ;
+    owl:sameAs <http://dbpedia.org/resource/Tessa_Thompson> .
 
 :ThomasHadenChurch a :Actor,
         owl:NamedIndividual ;
@@ -29416,11 +29713,13 @@ xsd:gYear a rdfs:Datatype .
 
 :ThomasJane a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Thomas Jane" .
+    rdfs:label "Thomas Jane" ;
+    owl:sameAs <http://dbpedia.org/resource/Thomas_Jane> .
 
 :TinaFey a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Tina Fey" .
+    rdfs:label "Tina Fey" ;
+    owl:sameAs <http://dbpedia.org/resource/Tina_Fey> .
 
 :TomHooper a :Director,
         owl:NamedIndividual ;
@@ -29436,15 +29735,17 @@ xsd:gYear a rdfs:Datatype .
 
 :TyeSheridan a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Tye Sheridan" .
+    rdfs:label "Tye Sheridan" ;
+    owl:sameAs <http://dbpedia.org/resource/Tye_Sheridan> .
 
 :ViggoMortensen a :Actor,
         owl:NamedIndividual ;
     rdfs:label "Viggo Mortensen" .
 
-<http://example.org/VincentD'Onofrio> a :Actor,
+<http://semweb-k-movies.up.railway.app/movies/VincentD'Onofrio> a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Vincent D'Onofrio" .
+    rdfs:label "Vincent D'Onofrio" ;
+    owl:sameAs <http://dbpedia.org/resource/Vincent_D'Onofrio> .
 
 :WesAnderson a :Director,
         owl:NamedIndividual ;
@@ -29452,7 +29753,8 @@ xsd:gYear a rdfs:Datatype .
 
 :WillArnett a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Will Arnett" .
+    rdfs:label "Will Arnett" ;
+    owl:sameAs <http://dbpedia.org/resource/Will_Arnett> .
 
 :WillGluck a :Director,
         owl:NamedIndividual ;
@@ -29460,11 +29762,13 @@ xsd:gYear a rdfs:Datatype .
 
 :WilliamFichtner a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "William Fichtner" .
+    rdfs:label "William Fichtner" ;
+    owl:sameAs <http://dbpedia.org/resource/William_Fichtner> .
 
 :ZacharyGordon a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Zachary Gordon" .
+    rdfs:label "Zachary Gordon" ;
+    owl:sameAs <http://dbpedia.org/resource/Zachary_Gordon> .
 
 :AaronPaul a :Actor,
         owl:NamedIndividual ;
@@ -29847,7 +30151,8 @@ xsd:gYear a rdfs:Datatype .
 
 :PaulWalker a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Paul Walker" .
+    rdfs:label "Paul Walker" ;
+    owl:sameAs <http://dbpedia.org/resource/Paul_Walker> .
 
 :PenélopeCruz a :Actor,
         owl:NamedIndividual ;
@@ -29863,11 +30168,13 @@ xsd:gYear a rdfs:Datatype .
 
 :PhilipSeymourHoffman a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Philip Seymour Hoffman" .
+    rdfs:label "Philip Seymour Hoffman" ;
+    owl:sameAs <http://dbpedia.org/resource/Philip_Seymour_Hoffman> .
 
 :PierceBrosnan a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Pierce Brosnan" .
+    rdfs:label "Pierce Brosnan" ;
+    owl:sameAs <http://dbpedia.org/resource/Pierce_Brosnan> .
 
 :QuentinTarantino a :Director,
         owl:NamedIndividual ;
@@ -29875,11 +30182,13 @@ xsd:gYear a rdfs:Datatype .
 
 :RebelWilson a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Rebel Wilson" .
+    rdfs:label "Rebel Wilson" ;
+    owl:sameAs <http://dbpedia.org/resource/Rebel_Wilson> .
 
 :ReeseWitherspoon a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Reese Witherspoon" .
+    rdfs:label "Reese Witherspoon" ;
+    owl:sameAs <http://dbpedia.org/resource/Reese_Witherspoon> .
 
 :RobertZemeckis a :Director,
         owl:NamedIndividual ;
@@ -29891,19 +30200,23 @@ xsd:gYear a rdfs:Datatype .
 
 :RupertGrint a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Rupert Grint" .
+    rdfs:label "Rupert Grint" ;
+    owl:sameAs <http://dbpedia.org/resource/Rupert_Grint> .
 
 :SamClaflin a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Sam Claflin" .
+    rdfs:label "Sam Claflin" ;
+    owl:sameAs <http://dbpedia.org/resource/Sam_Claflin> .
 
 :SarahGadon a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Sarah Gadon" .
+    rdfs:label "Sarah Gadon" ;
+    owl:sameAs <http://dbpedia.org/resource/Sarah_Gadon> .
 
 :SteveZahn a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Steve Zahn" .
+    rdfs:label "Steve Zahn" ;
+    owl:sameAs <http://dbpedia.org/resource/Steve_Zahn> .
 
 :StevenSpielberg a :Director,
         owl:NamedIndividual ;
@@ -29911,7 +30224,8 @@ xsd:gYear a rdfs:Datatype .
 
 :TaylorLautner a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Taylor Lautner" .
+    rdfs:label "Taylor Lautner" ;
+    owl:sameAs <http://dbpedia.org/resource/Taylor_Lautner> .
 
 :ThandieNewton a :Actor,
         owl:NamedIndividual ;
@@ -29919,7 +30233,8 @@ xsd:gYear a rdfs:Datatype .
 
 :TildaSwinton a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Tilda Swinton" .
+    rdfs:label "Tilda Swinton" ;
+    owl:sameAs <http://dbpedia.org/resource/Tilda_Swinton> .
 
 :TimBurton a :Director,
         owl:NamedIndividual ;
@@ -29927,27 +30242,33 @@ xsd:gYear a rdfs:Datatype .
 
 :TomHiddleston a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Tom Hiddleston" .
+    rdfs:label "Tom Hiddleston" ;
+    owl:sameAs <http://dbpedia.org/resource/Tom_Hiddleston> .
 
 :TomWilkinson a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Tom Wilkinson" .
+    rdfs:label "Tom Wilkinson" ;
+    owl:sameAs <http://dbpedia.org/resource/Tom_Wilkinson> .
 
 :TommyLeeJones a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Tommy Lee Jones" .
+    rdfs:label "Tommy Lee Jones" ;
+    owl:sameAs <http://dbpedia.org/resource/Tommy_Lee_Jones> .
 
 :TyreseGibson a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Tyrese Gibson" .
+    rdfs:label "Tyrese Gibson" ;
+    owl:sameAs <http://dbpedia.org/resource/Tyrese_Gibson> .
 
 :VinceVaughn a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Vince Vaughn" .
+    rdfs:label "Vince Vaughn" ;
+    owl:sameAs <http://dbpedia.org/resource/Vince_Vaughn> .
 
 :XavierSamuel a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Xavier Samuel" .
+    rdfs:label "Xavier Samuel" ;
+    owl:sameAs <http://dbpedia.org/resource/Xavier_Samuel> .
 
 :ZachGalifianakis a :Actor,
         owl:NamedIndividual ;
@@ -29955,11 +30276,13 @@ xsd:gYear a rdfs:Datatype .
 
 :ZacharyQuinto a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Zachary Quinto" .
+    rdfs:label "Zachary Quinto" ;
+    owl:sameAs <http://dbpedia.org/resource/Zachary_Quinto> .
 
 :ZooeyDeschanel a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Zooey Deschanel" .
+    rdfs:label "Zooey Deschanel" ;
+    owl:sameAs <http://dbpedia.org/resource/Zooey_Deschanel> .
 
 :AamirKhan a :Actor,
         :Director,
@@ -30202,11 +30525,13 @@ xsd:gYear a rdfs:Datatype .
 
 :PaulRudd a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Paul Rudd" .
+    rdfs:label "Paul Rudd" ;
+    owl:sameAs <http://dbpedia.org/resource/Paul_Rudd> .
 
 :PaulaPatton a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Paula Patton" .
+    rdfs:label "Paula Patton" ;
+    owl:sameAs <http://dbpedia.org/resource/Paula_Patton> .
 
 :PeterBerg a :Director,
         owl:NamedIndividual ;
@@ -30214,32 +30539,39 @@ xsd:gYear a rdfs:Datatype .
 
 :RichardJenkins a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Richard Jenkins" .
+    rdfs:label "Richard Jenkins" ;
+    owl:sameAs <http://dbpedia.org/resource/Richard_Jenkins> .
 
 :RonPerlman a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Ron Perlman" .
+    rdfs:label "Ron Perlman" ;
+    owl:sameAs <http://dbpedia.org/resource/Ron_Perlman> .
 
 :SandraBullock a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Sandra Bullock" .
+    rdfs:label "Sandra Bullock" ;
+    owl:sameAs <http://dbpedia.org/resource/Sandra_Bullock> .
 
 :SaoirseRonan a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Saoirse Ronan" .
+    rdfs:label "Saoirse Ronan" ;
+    owl:sameAs <http://dbpedia.org/resource/Saoirse_Ronan> .
 
 :SeanPenn a :Actor,
         :Director,
         owl:NamedIndividual ;
-    rdfs:label "Sean Penn" .
+    rdfs:label "Sean Penn" ;
+    owl:sameAs <http://dbpedia.org/resource/Sean_Penn> .
 
 :SiennaMiller a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Sienna Miller" .
+    rdfs:label "Sienna Miller" ;
+    owl:sameAs <http://dbpedia.org/resource/Sienna_Miller> .
 
 :SigourneyWeaver a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Sigourney Weaver" .
+    rdfs:label "Sigourney Weaver" ;
+    owl:sameAs <http://dbpedia.org/resource/Sigourney_Weaver> .
 
 :StellanSkarsgård a :Actor,
         owl:NamedIndividual ;
@@ -30247,11 +30579,13 @@ xsd:gYear a rdfs:Datatype .
 
 :TimRoth a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Tim Roth" .
+    rdfs:label "Tim Roth" ;
+    owl:sameAs <http://dbpedia.org/resource/Tim_Roth> .
 
 :VincentCassel a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Vincent Cassel" .
+    rdfs:label "Vincent Cassel" ;
+    owl:sameAs <http://dbpedia.org/resource/Vincent_Cassel> .
 
 :ZackSnyder a :Director,
         owl:NamedIndividual ;
@@ -30468,7 +30802,8 @@ xsd:gYear a rdfs:Datatype .
 
 :RebeccaHall a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Rebecca Hall" .
+    rdfs:label "Rebecca Hall" ;
+    owl:sameAs <http://dbpedia.org/resource/Rebecca_Hall> .
 
 :RobertPattinson a :Actor,
         owl:NamedIndividual ;
@@ -30476,36 +30811,44 @@ xsd:gYear a rdfs:Datatype .
 
 :RosamundPike a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Rosamund Pike" .
+    rdfs:label "Rosamund Pike" ;
+    owl:sameAs <http://dbpedia.org/resource/Rosamund_Pike> .
 
 :RosarioDawson a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Rosario Dawson" .
+    rdfs:label "Rosario Dawson" ;
+    owl:sameAs <http://dbpedia.org/resource/Rosario_Dawson> .
 
 :SamWorthington a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Sam Worthington" .
+    rdfs:label "Sam Worthington" ;
+    owl:sameAs <http://dbpedia.org/resource/Sam_Worthington> .
 
 :T.J.Miller a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "T.J. Miller" .
+    rdfs:label "T.J. Miller" ;
+    owl:sameAs <http://dbpedia.org/resource/T.J._Miller> .
 
 :TheoJames a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Theo James" .
+    rdfs:label "Theo James" ;
+    owl:sameAs <http://dbpedia.org/resource/Theo_James> .
 
 :VeraFarmiga a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Vera Farmiga" .
+    rdfs:label "Vera Farmiga" ;
+    owl:sameAs <http://dbpedia.org/resource/Vera_Farmiga> .
 
 :WillemDafoe a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Willem Dafoe" .
+    rdfs:label "Willem Dafoe" ;
+    owl:sameAs <http://dbpedia.org/resource/Willem_Dafoe> .
 
 :WoodyAllen a :Actor,
         :Director,
         owl:NamedIndividual ;
-    rdfs:label "Woody Allen" .
+    rdfs:label "Woody Allen" ;
+    owl:sameAs <http://dbpedia.org/resource/Woody_Allen> .
 
 :ZoeSaldana a :Actor,
         owl:NamedIndividual ;
@@ -30513,7 +30856,8 @@ xsd:gYear a rdfs:Datatype .
 
 :ZoeyDeutch a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Zoey Deutch" .
+    rdfs:label "Zoey Deutch" ;
+    owl:sameAs <http://dbpedia.org/resource/Zoey_Deutch> .
 
 :BryanCranston a :Actor,
         owl:NamedIndividual ;
@@ -30573,36 +30917,44 @@ xsd:gYear a rdfs:Datatype .
 
 :PatrickWilson a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Patrick Wilson" .
+    rdfs:label "Patrick Wilson" ;
+    owl:sameAs <http://dbpedia.org/resource/Patrick_Wilson_(American_actor)> .
 
 :RachelMcAdams a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Rachel McAdams" .
+    rdfs:label "Rachel McAdams" ;
+    owl:sameAs <http://dbpedia.org/resource/Rachel_McAdams> .
 
 :RalphFiennes a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Ralph Fiennes" .
+    rdfs:label "Ralph Fiennes" ;
+    owl:sameAs <http://dbpedia.org/resource/Ralph_Fiennes> .
 
 :RooneyMara a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Rooney Mara" .
+    rdfs:label "Rooney Mara" ;
+    owl:sameAs <http://dbpedia.org/resource/Rooney_Mara> .
 
 :RussellCrowe a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Russell Crowe" .
+    rdfs:label "Russell Crowe" ;
+    owl:sameAs <http://dbpedia.org/resource/Russell_Crowe> .
 
 :RyanReynolds a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Ryan Reynolds" .
+    rdfs:label "Ryan Reynolds" ;
+    owl:sameAs <http://dbpedia.org/resource/Ryan_Reynolds> .
 
 :SethMacFarlane a :Actor,
         :Director,
         owl:NamedIndividual ;
-    rdfs:label "Seth MacFarlane" .
+    rdfs:label "Seth MacFarlane" ;
+    owl:sameAs <http://dbpedia.org/resource/Seth_MacFarlane> .
 
 :ShaileneWoodley a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Shailene Woodley" .
+    rdfs:label "Shailene Woodley" ;
+    owl:sameAs <http://dbpedia.org/resource/Shailene_Woodley> .
 
 :SimonPegg a :Actor,
         owl:NamedIndividual ;
@@ -30610,19 +30962,23 @@ xsd:gYear a rdfs:Datatype .
 
 :SteveCarell a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Steve Carell" .
+    rdfs:label "Steve Carell" ;
+    owl:sameAs <http://dbpedia.org/resource/Steve_Carell> .
 
 :TeresaPalmer a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Teresa Palmer" .
+    rdfs:label "Teresa Palmer" ;
+    owl:sameAs <http://dbpedia.org/resource/Teresa_Palmer> .
 
 :VinDiesel a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Vin Diesel" .
+    rdfs:label "Vin Diesel" ;
+    owl:sameAs <http://dbpedia.org/resource/Vin_Diesel> .
 
 :ViolaDavis a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Viola Davis" .
+    rdfs:label "Viola Davis" ;
+    owl:sameAs <http://dbpedia.org/resource/Viola_Davis> .
 
 :Western a :Genre,
         owl:NamedIndividual ;
@@ -30705,7 +31061,8 @@ xsd:gYear a rdfs:Datatype .
 
 :RachelWeisz a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Rachel Weisz" .
+    rdfs:label "Rachel Weisz" ;
+    owl:sameAs <http://dbpedia.org/resource/Rachel_Weisz> .
 
 :RidleyScott a :Director,
         owl:NamedIndividual ;
@@ -30713,19 +31070,23 @@ xsd:gYear a rdfs:Datatype .
 
 :RobertDeNiro a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Robert De Niro" .
+    rdfs:label "Robert De Niro" ;
+    owl:sameAs <http://dbpedia.org/resource/Robert_De_Niro> .
 
 :TomCruise a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Tom Cruise" .
+    rdfs:label "Tom Cruise" ;
+    owl:sameAs <http://dbpedia.org/resource/Tom_Cruise> .
 
 :WillFerrell a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Will Ferrell" .
+    rdfs:label "Will Ferrell" ;
+    owl:sameAs <http://dbpedia.org/resource/Will_Ferrell> .
 
 :ZacEfron a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Zac Efron" .
+    rdfs:label "Zac Efron" ;
+    owl:sameAs <http://dbpedia.org/resource/Zac_Efron> .
 
 :AdamSandler a :Actor,
         owl:NamedIndividual ;
@@ -30795,7 +31156,8 @@ xsd:gYear a rdfs:Datatype .
 
 :RoseByrne a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Rose Byrne" .
+    rdfs:label "Rose Byrne" ;
+    owl:sameAs <http://dbpedia.org/resource/Rose_Byrne> .
 
 :SamuelL.Jackson a :Actor,
         owl:NamedIndividual ;
@@ -30803,15 +31165,18 @@ xsd:gYear a rdfs:Datatype .
 
 :SharltoCopley a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Sharlto Copley" .
+    rdfs:label "Sharlto Copley" ;
+    owl:sameAs <http://dbpedia.org/resource/Sharlto_Copley> .
 
 :TomHanks a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Tom Hanks" .
+    rdfs:label "Tom Hanks" ;
+    owl:sameAs <http://dbpedia.org/resource/Tom_Hanks> .
 
 :WoodyHarrelson a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Woody Harrelson" .
+    rdfs:label "Woody Harrelson" ;
+    owl:sameAs <http://dbpedia.org/resource/Woody_Harrelson> .
 
 :BenAffleck a :Actor,
         :Director,
@@ -30890,16 +31255,19 @@ xsd:gYear a rdfs:Datatype .
 
 :RyanGosling a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Ryan Gosling" .
+    rdfs:label "Ryan Gosling" ;
+    owl:sameAs <http://dbpedia.org/resource/Ryan_Gosling> .
 
 :SylvesterStallone a :Actor,
         :Director,
         owl:NamedIndividual ;
-    rdfs:label "Sylvester Stallone" .
+    rdfs:label "Sylvester Stallone" ;
+    owl:sameAs <http://dbpedia.org/resource/Sylvester_Stallone> .
 
 :WillSmith a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Will Smith" .
+    rdfs:label "Will Smith" ;
+    owl:sameAs <http://dbpedia.org/resource/Will_Smith> .
 
 :AnnaKendrick a :Actor,
         owl:NamedIndividual ;
@@ -30937,11 +31305,13 @@ xsd:gYear a rdfs:Datatype .
 
 :SethRogen a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Seth Rogen" .
+    rdfs:label "Seth Rogen" ;
+    owl:sameAs <http://dbpedia.org/resource/Seth_Rogen> .
 
 :ShiaLaBeouf a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Shia LaBeouf" .
+    rdfs:label "Shia LaBeouf" ;
+    owl:sameAs <http://dbpedia.org/resource/Shia_LaBeouf> .
 
 :AnneHathaway a :Actor,
         owl:NamedIndividual ;
@@ -30963,17 +31333,20 @@ xsd:gYear a rdfs:Datatype .
     rdfs:label "Michael Fassbender" ;
     owl:sameAs <http://dbpedia.org/resource/Michael_Fassbender> .
 
-<http://example.org/RobertDowneyJr.> a :Actor,
+<http://semweb-k-movies.up.railway.app/movies/RobertDowneyJr.> a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Robert Downey Jr." .
+    rdfs:label "Robert Downey Jr." ;
+    owl:sameAs <http://dbpedia.org/resource/Robert_Downey_Jr.> .
 
 :ScarlettJohansson a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Scarlett Johansson" .
+    rdfs:label "Scarlett Johansson" ;
+    owl:sameAs <http://dbpedia.org/resource/Scarlett_Johansson> .
 
 :TomHardy a :Actor,
         owl:NamedIndividual ;
-    rdfs:label "Tom Hardy" .
+    rdfs:label "Tom Hardy" ;
+    owl:sameAs <http://dbpedia.org/resource/Tom_Hardy> .
 
 :BradPitt a :Actor,
         owl:NamedIndividual ;
