@@ -177,8 +177,3 @@ def process_result(result, query_type):
 def movie_detail(request, movie_id):
     ctx = movie_detail_query(movie_id)
     return render(request, 'movie_detail.html', ctx)
-
-
-def actor_detail(request):
-    data = {'name': 'Jenna Ortega'}
-    return render(request, 'actor_detail.html', data)
