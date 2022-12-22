@@ -16,6 +16,19 @@ def homepage(request):
 
 
 def movie_search_query(title, actor, director, genre, yearAfter, yearBefore, ratingMoreThan, ratingLessThan):
+    title_filter = f"FILTER regex(lcase(?title), '{title.lower}') ." if title != "" else ""
+    actor_filter = f"FILTER regex(lcase(?actorName), '{actor.lower}') ." if actor != "" else ""
+    director_filter = f"FILTER regex(lcase(?directorName), '{director.lower}') ." if director != "" else ""
+    genre_filter = f"FILTER regex(lcase(?genreLabel), '{genre.lower}') ." if genre != "" else ""
+
+    yearAfter = yearAfter if yearAfter != "" else 0
+    yearBefore = yearBefore if yearBefore != "" else 10000
+    year_filter = f"FILTER (?year >= {yearAfter}^^xsd:gYear && ?year <= {yearBefore}^^xsd:gYear ) ."
+
+    ratingMoreThan = ratingMoreThan if ratingMoreThan != "" else 0.0
+    ratingLessThan = ratingLessThan if ratingLessThan != "" else 10000.0
+    rating_filter = f"FILTER (?rating >= '{ratingMoreThan}'^^xsd:double && ?rating <= '{ratingLessThan}'^^xsd:double )."
+
     query = """
         SELECT ?movie ?title ?directorName ?rating (GROUP_CONCAT(distinct(?genreLabel);SEPARATOR=", ") AS ?genres) ?year
     WHERE {
@@ -30,16 +43,16 @@ def movie_search_query(title, actor, director, genre, yearAfter, yearBefore, rat
       OPTIONAL {{?movie :title ?title .}}
       OPTIONAL {{?movie :year ?year .}}
       
-      FILTER regex(lcase(?title), "%s") .
-      FILTER regex(lcase(?actorName), "%s") .
-      FILTER regex(lcase(?directorName), "%s") .
-      FILTER regex(lcase(?genreLabel), "%s") .
-      
-      FILTER (?rating >= "%s"^^xsd:double && ?rating <= "%s"^^xsd:double ).
-             
+      %s
+      %s
+      %s
+      %s
+      %s
+      %s
+         
     } GROUP BY ?movie ?title ?directorName ?desc ?rating ?year ?runtime ?votes ?rank ?revenue
-        """ % (title.lower(), actor.lower(), director.lower(), genre.lower(), float(ratingMoreThan), float(ratingLessThan))
-    # TODO: Implement filter by year and rating
+        """ % (title_filter, actor_filter, director_filter, genre_filter, rating_filter,year_filter)
+    # TODO: Implement filter by year
 
     print(query)
 
@@ -83,24 +96,10 @@ def movie_search(request):
     ratingMoreThan = request.GET.get('ratingMoreThan')
     ratingLessThan = request.GET.get('ratingLessThan')
 
-    # TODO: get movies and genre from backend function
-    # ctx = {'movies': [
-    #     {'id': 2, 'title': 'Wednesday', 'director': 'Christopher Nolan', 'rating': 4.8, 'genre': 'Thriller'},
-    #     {'id': 1, 'title': 'Django Unchained', 'director': 'Sule Sutrisna', 'rating': 2.4, 'genre': 'Comedy'},
-    #     {'id': 1, 'title': 'Django Unchained', 'director': 'Sule Sutrisna', 'rating': 2.4, 'genre': 'Comedy'},
-    #     {'id': 1, 'title': 'Django Unchained', 'director': 'Sule Sutrisna', 'rating': 2.4, 'genre': 'Comedy'},
-    #     {'id': 1, 'title': 'Django Unchained', 'director': 'Sule Sutrisna', 'rating': 2.4, 'genre': 'Comedy'},
-    #     {'id': 1, 'title': 'Django Unchained', 'director': 'Sule Sutrisna', 'rating': 2.4, 'genre': 'Comedy'},
-    #     {'id': 1, 'title': 'Django Unchained', 'director': 'Sule Sutrisna', 'rating': 2.4, 'genre': 'Comedy'},
-    #     {'id': 1, 'title': 'Django Unchained', 'director': 'Sule Sutrisna', 'rating': 2.4, 'genre': 'Comedy'},
-    #     {'id': 1, 'title': 'Django Unchained', 'director': 'Sule Sutrisna', 'rating': 2.4, 'genre': 'Comedy'},
-    #     {'id': 1, 'title': 'Django Unchained', 'director': 'Sule Sutrisna', 'rating': 2.4, 'genre': 'Comedy'},
-    #     {'id': 1, 'title': 'Django Unchained', 'director': 'Sule Sutrisna', 'rating': 2.4, 'genre': 'Comedy'},
-    # ]}
     ctx = {'movies': movie_search_query(title, actor, director, genre, yearAfter, yearBefore, ratingMoreThan,
                                         ratingLessThan), 'genre': genre_query()}
 
-    print(ctx)
+    # print(ctx)
     return render(request, 'movie_search.html', ctx)
 
 
