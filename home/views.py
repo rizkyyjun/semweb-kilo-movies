@@ -16,10 +16,10 @@ def homepage(request):
 
 
 def movie_search_query(title, actor, director, genre, ratingMoreThan, ratingLessThan):
-    title_filter = f"FILTER regex(lcase(?title), '{title.lower}') ." if title != "" else ""
-    actor_filter = f"FILTER regex(lcase(?actorName), '{actor.lower}') ." if actor != "" else ""
-    director_filter = f"FILTER regex(lcase(?directorName), '{director.lower}') ." if director != "" else ""
-    genre_filter = f"FILTER regex(lcase(?genreLabel), '{genre.lower}') ." if genre != "" else ""
+    title_filter = f"FILTER regex(lcase(?title), '{title.lower()}') ." if title != "" else ""
+    actor_filter = f"FILTER regex(lcase(?actorName), '{actor.lower()}') ." if actor != "" else ""
+    director_filter = f"FILTER regex(lcase(?directorName), '{director.lower()}') ." if director != "" else ""
+    genre_filter = f"FILTER regex(lcase(?genreLabel), '{genre.lower()}') ." if genre != "" else ""
 
     # yearAfter = yearAfter if yearAfter != "" else 1990
     # yearBefore = yearBefore if yearBefore != "" else 3000
@@ -178,41 +178,3 @@ def process_result(result, query_type):
 def movie_detail(request, movie_id):
     ctx = movie_detail_query(movie_id)
     return render(request, 'movie_detail.html', ctx)
-
-
-def actor_detail(request):
-    data = {'name': 'Jenna Ortega'}
-    return render(request, 'actor_detail.html', data)
-
-def actor_detail_query(actor_name):
-    actor_name = f'dbp:{actor_name}'
-    sparql = SPARQLWrapper('https://dbpedia.org/sparql')
-    query = '''
-    SELECT *
-    WHERE {
-        ?film dbo:starring ?actor .
-        ?actor dbo:abstract ?abstract;
-            dbo:birthDate ?birthDate;
-            dbp:name ?name;
-            dbp:nationality ?nationality.
-        FILTER (lang(?abstract) = "en" && lang(?name) = "en" && lang(?nationality) = "en")
-    }
-    LIMIT 1
-    '''
-
-    sparql.setQuery(query)
-    sparql.setReturnFormat(JSON)
-
-    try:
-        qres = sparql.query().convert()
-        for res in qres['results']['bindings']:
-            print(res)
-            break
-        return qres
-    except Exception:
-        return "SPARQL Error!"
-
-def movie_search(request):
-    data = {'movies': [{'title': 'Wednesday'}, {'title': 'Django Unchained'}]}
-
-    return render(request, 'movie_search.html', data)
