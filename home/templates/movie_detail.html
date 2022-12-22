@@ -87,13 +87,14 @@
                                     </div>
                                     <div class="col-sm-9 text-secondary">
                                         {% for actor in actors %}
-                                        <span><a href="{{ actor.dbpediaActor }}">{{actor.name}}</a>, </span>
+<!--                                         <span><a href="{{ actor.dbpediaActor }}">{{actor.name}}</a>, </span> -->
                                             {% if dbpediaActor %}
                                               <span><a href="{{ actor.dbpediaActor }}">{{actor.name}}</a>, </span>
                                             {% else %}
-                                            <div class="col-sm-9 text-secondary">
+                                                <span>{{ actor.name }}, </span>
+<!--                                             <div class="col-sm-9 text-secondary">
                                               {{ actor.name }}
-                                          </div>
+                                          </div> -->
                                             {% endif %}
                                         {% endfor %}
                                     </div>
