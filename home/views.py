@@ -105,8 +105,9 @@ def movie_detail_query(movie_id):
     SELECT ?movie ?title ?desc ?directorName ?rating (GROUP_CONCAT(distinct(?genreLabel);SEPARATOR=", ") AS ?genres) (GROUP_CONCAT(distinct(?actor);SEPARATOR=", ") AS ?actorsIRI) (GROUP_CONCAT(distinct(?actorName);SEPARATOR=", ") AS ?actorNames)  ?year ?runtime ?votes ?rank ?revenue
     WHERE {
         ?movie rdf:type :Movie .
-        OPTIONAL {{?movie :actors ?actor .
-                  ?actor rdfs:label ?actorName . }}
+        ?movie :actors ?actor .
+                  ?actor rdfs:label ?actorName ;
+        OPTIONAL {{  ?actor owl:sameAs ?dbpediaActor . }}
         OPTIONAL {{?movie :director ?director. 
                   ?director rdfs:label ?directorName .}}
         OPTIONAL {{?movie :genre ?genre .
@@ -120,7 +121,6 @@ def movie_detail_query(movie_id):
         OPTIONAL {{?movie :votes ?votes .}}
         OPTIONAL {{?movie :title ?title .}}
         OPTIONAL {{?movie :year ?year .}}
-        OPTIONAL {{?movie owl:sameAs ?dbpediaActor .}}
       FILTER regex(str(?movie), "%s$")
     } GROUP BY ?movie ?title ?directorName ?desc ?rating ?year ?runtime ?votes ?rank ?revenue ?dbpediaActor
     """ % movie_id
@@ -159,7 +159,7 @@ def process_result(result, query_type):
                 'votes': row.votes.toPython(),
                 'rank': row.rank.toPython(),
                 'revenue': row.revenue.toPython(),
-                'dbpediaActor': row.revenue.toPython()
+                'dbpediaActor': row.dbpediaActor.toPython()
             }
             return temp
         elif query_type == "movie_search":
