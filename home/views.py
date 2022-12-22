@@ -16,10 +16,10 @@ def homepage(request):
 
 
 def movie_search_query(title, actor, director, genre, ratingMoreThan, ratingLessThan):
-    title_filter = f"FILTER regex(lcase(?title), '{title.lower}') ." if title != "" else ""
-    actor_filter = f"FILTER regex(lcase(?actorName), '{actor.lower}') ." if actor != "" else ""
-    director_filter = f"FILTER regex(lcase(?directorName), '{director.lower}') ." if director != "" else ""
-    genre_filter = f"FILTER regex(lcase(?genreLabel), '{genre.lower}') ." if genre != "" else ""
+    title_filter = f"FILTER regex(lcase(?title), '{title.lower()}') ." if title != "" else ""
+    actor_filter = f"FILTER regex(lcase(?actorName), '{actor.lower()}') ." if actor != "" else ""
+    director_filter = f"FILTER regex(lcase(?directorName), '{director.lower()}') ." if director != "" else ""
+    genre_filter = f"FILTER regex(lcase(?genreLabel), '{genre.lower()}') ." if genre != "" else ""
 
     # yearAfter = yearAfter if yearAfter != "" else 1990
     # yearBefore = yearBefore if yearBefore != "" else 3000
