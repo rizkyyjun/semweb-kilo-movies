@@ -15,15 +15,15 @@ def homepage(request):
     return render(request, 'homepage.html', ctx)
 
 
-def movie_search_query(title, actor, director, genre, yearAfter, yearBefore, ratingMoreThan, ratingLessThan):
+def movie_search_query(title, actor, director, genre, ratingMoreThan, ratingLessThan):
     title_filter = f"FILTER regex(lcase(?title), '{title.lower}') ." if title != "" else ""
     actor_filter = f"FILTER regex(lcase(?actorName), '{actor.lower}') ." if actor != "" else ""
     director_filter = f"FILTER regex(lcase(?directorName), '{director.lower}') ." if director != "" else ""
     genre_filter = f"FILTER regex(lcase(?genreLabel), '{genre.lower}') ." if genre != "" else ""
 
-    yearAfter = yearAfter if yearAfter != "" else 0
-    yearBefore = yearBefore if yearBefore != "" else 10000
-    year_filter = f"FILTER (?year >= {yearAfter}^^xsd:gYear && ?year <= {yearBefore}^^xsd:gYear ) ."
+    # yearAfter = yearAfter if yearAfter != "" else 1990
+    # yearBefore = yearBefore if yearBefore != "" else 3000
+    # # year_filter = f"FILTER (?year >= '{yearAfter}'^^xsd:gYear && ?year <= '{yearBefore}'^^xsd:gYear ) ."
 
     ratingMoreThan = ratingMoreThan if ratingMoreThan != "" else 0.0
     ratingLessThan = ratingLessThan if ratingLessThan != "" else 10000.0
@@ -48,11 +48,9 @@ def movie_search_query(title, actor, director, genre, yearAfter, yearBefore, rat
       %s
       %s
       %s
-      %s
          
     } GROUP BY ?movie ?title ?directorName ?desc ?rating ?year ?runtime ?votes ?rank ?revenue
-        """ % (title_filter, actor_filter, director_filter, genre_filter, rating_filter,year_filter)
-    # TODO: Implement filter by year
+        """ % (title_filter, actor_filter, director_filter, genre_filter, rating_filter)
 
     print(query)
 
@@ -60,6 +58,7 @@ def movie_search_query(title, actor, director, genre, yearAfter, yearBefore, rat
     g.parse('home/static/movies.ttl')
     try:
         res = g.query(query)
+        print("halo")
         res = process_result(res, "movie_search")
 
         return res
@@ -91,12 +90,10 @@ def movie_search(request):
     actor = request.GET.get('actor')
     director = request.GET.get('director')
     genre = request.GET.get('genre')
-    yearAfter = request.GET.get('yearAfter')
-    yearBefore = request.GET.get('yearBefore')
     ratingMoreThan = request.GET.get('ratingMoreThan')
     ratingLessThan = request.GET.get('ratingLessThan')
 
-    ctx = {'movies': movie_search_query(title, actor, director, genre, yearAfter, yearBefore, ratingMoreThan,
+    ctx = {'movies': movie_search_query(title, actor, director, genre, ratingMoreThan,
                                         ratingLessThan), 'genre': genre_query()}
 
     # print(ctx)
@@ -140,6 +137,7 @@ def movie_detail_query(movie_id):
 
 def process_result(result, query_type):
     res = []
+    print(len(result))
     for row in result:
         if query_type == "movie_detail":
             actors = []
